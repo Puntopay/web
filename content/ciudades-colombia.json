@@ -1,0 +1,4682 @@
+{
+    "colombia":[
+        {
+            "depto":{
+                "Antioquia": [
+                    {
+                        "ciudad": "Medellín",
+                        "codigo": "1"
+                    },
+                    {
+                        "ciudad": "Abejorral",
+                        "codigo": "2"
+                    },
+                    {
+                        "ciudad": "Abriaqui",
+                        "codigo": "3"
+                    },
+                    {
+                        "ciudad": "Alejandria",
+                        "codigo": "4"
+                    },
+                    {
+                        "ciudad": "Amaga",
+                        "codigo": "5"
+                    },
+                    {
+                        "ciudad": "Amalfi",
+                        "codigo": "6"
+                    },
+                    {
+                        "ciudad": "Andes",
+                        "codigo": "7"
+                    },
+                    {
+                        "ciudad": "Angelopolis",
+                        "codigo": "8"
+                    },
+                    {
+                        "ciudad": "Angostura",
+                        "codigo": "9"
+                    },
+                    {
+                        "ciudad": "Anori",
+                        "codigo": "10"
+                    },
+                    {
+                        "ciudad": "Santafe De Antioquia",
+                        "codigo": "11"
+                    },
+                    {
+                        "ciudad": "Anza",
+                        "codigo": "12"
+                    },
+                    {
+                        "ciudad": "Apartado",
+                        "codigo": "13"
+                    },
+                    {
+                        "ciudad": "Arboletes",
+                        "codigo": "14"
+                    },
+                    {
+                        "ciudad": "Argelia",
+                        "codigo": "15"
+                    },
+                    {
+                        "ciudad": "Armenia",
+                        "codigo": "16"
+                    },
+                    {
+                        "ciudad": "Barbosa",
+                        "codigo": "17"
+                    },
+                    {
+                        "ciudad": "Belmira",
+                        "codigo": "18"
+                    },
+                    {
+                        "ciudad": "Bello",
+                        "codigo": "19"
+                    },
+                    {
+                        "ciudad": "Betania",
+                        "codigo": "20"
+                    },
+                    {
+                        "ciudad": "Betulia",
+                        "codigo": "21"
+                    },
+                    {
+                        "ciudad": "Ciudad Bolivar",
+                        "codigo": "22"
+                    },
+                    {
+                        "ciudad": "Briceño",
+                        "codigo": "23"
+                    },
+                    {
+                        "ciudad": "Buritica",
+                        "codigo": "24"
+                    },
+                    {
+                        "ciudad": "Caceres",
+                        "codigo": "25"
+                    },
+                    {
+                        "ciudad": "Caicedo",
+                        "codigo": "26"
+                    },
+                    {
+                        "ciudad": "Caldas",
+                        "codigo": "27"
+                    },
+                    {
+                        "ciudad": "Campamento",
+                        "codigo": "28"
+                    },
+                    {
+                        "ciudad": "Cañasgordas",
+                        "codigo": "29"
+                    },
+                    {
+                        "ciudad": "Caracoli",
+                        "codigo": "30"
+                    },
+                    {
+                        "ciudad": "Caramanta",
+                        "codigo": "31"
+                    },
+                    {
+                        "ciudad": "Carepa",
+                        "codigo": "32"
+                    },
+                    {
+                        "ciudad": "El Carmen De Viboral",
+                        "codigo": "33"
+                    },
+                    {
+                        "ciudad": "Carolina",
+                        "codigo": "34"
+                    },
+                    {
+                        "ciudad": "Caucasia",
+                        "codigo": "35"
+                    },
+                    {
+                        "ciudad": "Chigorodo",
+                        "codigo": "36"
+                    },
+                    {
+                        "ciudad": "Cisneros",
+                        "codigo": "37"
+                    },
+                    {
+                        "ciudad": "Cocorna",
+                        "codigo": "38"
+                    },
+                    {
+                        "ciudad": "Concepcion",
+                        "codigo": "39"
+                    },
+                    {
+                        "ciudad": "Concordia",
+                        "codigo": "40"
+                    },
+                    {
+                        "ciudad": "Copacabana",
+                        "codigo": "41"
+                    },
+                    {
+                        "ciudad": "Dabeiba",
+                        "codigo": "42"
+                    },
+                    {
+                        "ciudad": "Don Matias",
+                        "codigo": "43"
+                    },
+                    {
+                        "ciudad": "Ebejico",
+                        "codigo": "44"
+                    },
+                    {
+                        "ciudad": "El Bagre",
+                        "codigo": "45"
+                    },
+                    {
+                        "ciudad": "Entrerrios",
+                        "codigo": "46"
+                    },
+                    {
+                        "ciudad": "Envigado",
+                        "codigo": "47"
+                    },
+                    {
+                        "ciudad": "Fredonia",
+                        "codigo": "48"
+                    },
+                    {
+                        "ciudad": "Frontino",
+                        "codigo": "49"
+                    },
+                    {
+                        "ciudad": "Giraldo",
+                        "codigo": "50"
+                    },
+                    {
+                        "ciudad": "Girardota",
+                        "codigo": "51"
+                    },
+                    {
+                        "ciudad": "Gomez Plata",
+                        "codigo": "52"
+                    },
+                    {
+                        "ciudad": "Granada",
+                        "codigo": "53"
+                    },
+                    {
+                        "ciudad": "Guadalupe",
+                        "codigo": "54"
+                    },
+                    {
+                        "ciudad": "Guarne",
+                        "codigo": "55"
+                    },
+                    {
+                        "ciudad": "Guatape",
+                        "codigo": "56"
+                    },
+                    {
+                        "ciudad": "Heliconia",
+                        "codigo": "57"
+                    },
+                    {
+                        "ciudad": "Hispania",
+                        "codigo": "58"
+                    },
+                    {
+                        "ciudad": "Itagui",
+                        "codigo": "59"
+                    },
+                    {
+                        "ciudad": "Ituango",
+                        "codigo": "60"
+                    },
+                    {
+                        "ciudad": "Jardin",
+                        "codigo": "61"
+                    },
+                    {
+                        "ciudad": "Jerico",
+                        "codigo": "62"
+                    },
+                    {
+                        "ciudad": "La Ceja",
+                        "codigo": "63"
+                    },
+                    {
+                        "ciudad": "La Estrella",
+                        "codigo": "64"
+                    },
+                    {
+                        "ciudad": "La Pintada",
+                        "codigo": "65"
+                    },
+                    {
+                        "ciudad": "La Union",
+                        "codigo": "66"
+                    },
+                    {
+                        "ciudad": "Liborina",
+                        "codigo": "67"
+                    },
+                    {
+                        "ciudad": "Maceo",
+                        "codigo": "68"
+                    },
+                    {
+                        "ciudad": "Marinilla",
+                        "codigo": "69"
+                    },
+                    {
+                        "ciudad": "Montebello",
+                        "codigo": "70"
+                    },
+                    {
+                        "ciudad": "Murindo",
+                        "codigo": "71"
+                    },
+                    {
+                        "ciudad": "Mutata",
+                        "codigo": "72"
+                    },
+                    {
+                        "ciudad": "Nariño",
+                        "codigo": "73"
+                    },
+                    {
+                        "ciudad": "Necocli",
+                        "codigo": "74"
+                    },
+                    {
+                        "ciudad": "Nechi",
+                        "codigo": "75"
+                    },
+                    {
+                        "ciudad": "Olaya",
+                        "codigo": "76"
+                    },
+                    {
+                        "ciudad": "Peðol",
+                        "codigo": "77"
+                    },
+                    {
+                        "ciudad": "Peque",
+                        "codigo": "78"
+                    },
+                    {
+                        "ciudad": "Pueblorrico",
+                        "codigo": "79"
+                    },
+                    {
+                        "ciudad": "Puerto Berrio",
+                        "codigo": "80"
+                    },
+                    {
+                        "ciudad": "Puerto Nare",
+                        "codigo": "81"
+                    },
+                    {
+                        "ciudad": "Puerto Triunfo",
+                        "codigo": "82"
+                    },
+                    {
+                        "ciudad": "Remedios",
+                        "codigo": "83"
+                    },
+                    {
+                        "ciudad": "Retiro",
+                        "codigo": "84"
+                    },
+                    {
+                        "ciudad": "Rionegro",
+                        "codigo": "85"
+                    },
+                    {
+                        "ciudad": "Sabanalarga",
+                        "codigo": "86"
+                    },
+                    {
+                        "ciudad": "Sabaneta",
+                        "codigo": "87"
+                    },
+                    {
+                        "ciudad": "Salgar",
+                        "codigo": "88"
+                    },
+                    {
+                        "ciudad": "San Andres De Cuerquia",
+                        "codigo": "89"
+                    },
+                    {
+                        "ciudad": "San Carlos",
+                        "codigo": "90"
+                    },
+                    {
+                        "ciudad": "San Francisco",
+                        "codigo": "91"
+                    },
+                    {
+                        "ciudad": "San Jeronimo",
+                        "codigo": "92"
+                    },
+                    {
+                        "ciudad": "San Jose De La Montaña",
+                        "codigo": "93"
+                    },
+                    {
+                        "ciudad": "San Juan De Uraba",
+                        "codigo": "94"
+                    },
+                    {
+                        "ciudad": "San Luis",
+                        "codigo": "95"
+                    },
+                    {
+                        "ciudad": "San Pedro",
+                        "codigo": "96"
+                    },
+                    {
+                        "ciudad": "San Pedro De Uraba",
+                        "codigo": "97"
+                    },
+                    {
+                        "ciudad": "San Rafael",
+                        "codigo": "98"
+                    },
+                    {
+                        "ciudad": "San Roque",
+                        "codigo": "99"
+                    },
+                    {
+                        "ciudad": "San Vicente",
+                        "codigo": "100"
+                    },
+                    {
+                        "ciudad": "Santa Barbara",
+                        "codigo": "101"
+                    },
+                    {
+                        "ciudad": "Santa Rosa De Osos",
+                        "codigo": "102"
+                    },
+                    {
+                        "ciudad": "Santo Domingo",
+                        "codigo": "103"
+                    },
+                    {
+                        "ciudad": "El Santuario",
+                        "codigo": "104"
+                    },
+                    {
+                        "ciudad": "Segovia",
+                        "codigo": "105"
+                    },
+                    {
+                        "ciudad": "Sonson",
+                        "codigo": "106"
+                    },
+                    {
+                        "ciudad": "Sopetran",
+                        "codigo": "107"
+                    },
+                    {
+                        "ciudad": "Tamesis",
+                        "codigo": "108"
+                    },
+                    {
+                        "ciudad": "Taraza",
+                        "codigo": "109"
+                    },
+                    {
+                        "ciudad": "Tarso",
+                        "codigo": "110"
+                    },
+                    {
+                        "ciudad": "Titiribi",
+                        "codigo": "111"
+                    },
+                    {
+                        "ciudad": "Toledo",
+                        "codigo": "112"
+                    },
+                    {
+                        "ciudad": "Turbo",
+                        "codigo": "113"
+                    },
+                    {
+                        "ciudad": "Uramita",
+                        "codigo": "114"
+                    },
+                    {
+                        "ciudad": "Urrao",
+                        "codigo": "115"
+                    },
+                    {
+                        "ciudad": "Valdivia",
+                        "codigo": "116"
+                    },
+                    {
+                        "ciudad": "Valparaiso",
+                        "codigo": "117"
+                    },
+                    {
+                        "ciudad": "Vegachi",
+                        "codigo": "118"
+                    },
+                    {
+                        "ciudad": "Venecia",
+                        "codigo": "119"
+                    },
+                    {
+                        "ciudad": "Vigia Del Fuerte",
+                        "codigo": "120"
+                    },
+                    {
+                        "ciudad": "Yali",
+                        "codigo": "121"
+                    },
+                    {
+                        "ciudad": "Yarumal",
+                        "codigo": "122"
+                    },
+                    {
+                        "ciudad": "Yolombo",
+                        "codigo": "123"
+                    },
+                    {
+                        "ciudad": "Yondo",
+                        "codigo": "124"
+                    },
+                    {
+                        "ciudad": "Zaragoza",
+                        "codigo": "125"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Atlántico": [
+                    {
+                        "ciudad": "Barranquilla",
+                        "codigo": "126"
+                    },
+                    {
+                        "ciudad": "Baranoa",
+                        "codigo": "127"
+                    },
+                    {
+                        "ciudad": "Campo De La Cruz",
+                        "codigo": "128"
+                    },
+                    {
+                        "ciudad": "Candelaria",
+                        "codigo": "129"
+                    },
+                    {
+                        "ciudad": "Galapa",
+                        "codigo": "130"
+                    },
+                    {
+                        "ciudad": "Juan De Acosta",
+                        "codigo": "131"
+                    },
+                    {
+                        "ciudad": "Luruaco",
+                        "codigo": "132"
+                    },
+                    {
+                        "ciudad": "Malambo",
+                        "codigo": "133"
+                    },
+                    {
+                        "ciudad": "Manati",
+                        "codigo": "134"
+                    },
+                    {
+                        "ciudad": "Palmar De Varela",
+                        "codigo": "135"
+                    },
+                    {
+                        "ciudad": "Piojo",
+                        "codigo": "136"
+                    },
+                    {
+                        "ciudad": "Polonuevo",
+                        "codigo": "137"
+                    },
+                    {
+                        "ciudad": "Ponedera",
+                        "codigo": "138"
+                    },
+                    {
+                        "ciudad": "Puerto Colombia",
+                        "codigo": "139"
+                    },
+                    {
+                        "ciudad": "Repelon",
+                        "codigo": "140"
+                    },
+                    {
+                        "ciudad": "Sabanagrande",
+                        "codigo": "141"
+                    },
+                    {
+                        "ciudad": "Sabanalarga",
+                        "codigo": "142"
+                    },
+                    {
+                        "ciudad": "Santa Lucia",
+                        "codigo": "143"
+                    },
+                    {
+                        "ciudad": "Santo Tomas",
+                        "codigo": "144"
+                    },
+                    {
+                        "ciudad": "Soledad",
+                        "codigo": "145"
+                    },
+                    {
+                        "ciudad": "Suan",
+                        "codigo": "146"
+                    },
+                    {
+                        "ciudad": "Tubara",
+                        "codigo": "147"
+                    },
+                    {
+                        "ciudad": "Usiacuri",
+                        "codigo": "148"
+                    }
+                ]
+            }
+        },
+        {
+           "depto":{
+                "Bogotá":[
+                    {
+                        "ciudad": "Bogota, D.C.",
+                        "codigo": "149"
+                    }
+                ] 
+           } 
+        },
+        {
+            "depto":{ 
+                "Bolivar":[
+                    {
+                        "ciudad": "Cartagena",
+                        "codigo": "150"
+                    },
+                    {
+                        "ciudad": "Achi",
+                        "codigo": "151"
+                    },
+                    {
+                        "ciudad": "Altos Del Rosario",
+                        "codigo": "152"
+                    },
+                    {
+                        "ciudad": "Arenal",
+                        "codigo": "153"
+                    },
+                    {
+                        "ciudad": "Arjona",
+                        "codigo": "154"
+                    },
+                    {
+                        "ciudad": "Arroyohondo",
+                        "codigo": "155"
+                    },
+                    {
+                        "ciudad": "Barranco De Loba",
+                        "codigo": "156"
+                    },
+                    {
+                        "ciudad": "Calamar",
+                        "codigo": "157"
+                    },
+                    {
+                        "ciudad": "Cantagallo",
+                        "codigo": "158"
+                    },
+                    {
+                        "ciudad": "Cicuco",
+                        "codigo": "159"
+                    },
+                    {
+                        "ciudad": "Cordoba",
+                        "codigo": "160"
+                    },
+                    {
+                        "ciudad": "Clemencia",
+                        "codigo": "161"
+                    },
+                    {
+                        "ciudad": "El Carmen De Bolivar",
+                        "codigo": "162"
+                    },
+                    {
+                        "ciudad": "El Guamo",
+                        "codigo": "163"
+                    },
+                    {
+                        "ciudad": "El Peñon",
+                        "codigo": "164"
+                    },
+                    {
+                        "ciudad": "Hatillo De Loba",
+                        "codigo": "165"
+                    },
+                    {
+                        "ciudad": "Magangue",
+                        "codigo": "166"
+                    },
+                    {
+                        "ciudad": "Mahates",
+                        "codigo": "167"
+                    },
+                    {
+                        "ciudad": "Margarita",
+                        "codigo": "168"
+                    },
+                    {
+                        "ciudad": "Maria La Baja",
+                        "codigo": "169"
+                    },
+                    {
+                        "ciudad": "Montecristo",
+                        "codigo": "170"
+                    },
+                    {
+                        "ciudad": "Mompos",
+                        "codigo": "171"
+                    },
+                    {
+                        "ciudad": "Norosi",
+                        "codigo": "172"
+                    },
+                    {
+                        "ciudad": "Morales",
+                        "codigo": "173"
+                    },
+                    {
+                        "ciudad": "Pinillos",
+                        "codigo": "174"
+                    },
+                    {
+                        "ciudad": "Regidor",
+                        "codigo": "175"
+                    },
+                    {
+                        "ciudad": "Rio Viejo",
+                        "codigo": "176"
+                    },
+                    {
+                        "ciudad": "San Cristobal",
+                        "codigo": "177"
+                    },
+                    {
+                        "ciudad": "San Estanislao",
+                        "codigo": "178"
+                    },
+                    {
+                        "ciudad": "San Fernando",
+                        "codigo": "179"
+                    },
+                    {
+                        "ciudad": "San Jacinto",
+                        "codigo": "180"
+                    },
+                    {
+                        "ciudad": "San Jacinto Del Cauca",
+                        "codigo": "181"
+                    },
+                    {
+                        "ciudad": "San Juan Nepomuceno",
+                        "codigo": "182"
+                    },
+                    {
+                        "ciudad": "San Martin De Loba",
+                        "codigo": "183"
+                    },
+                    {
+                        "ciudad": "San Pablo",
+                        "codigo": "184"
+                    },
+                    {
+                        "ciudad": "Santa Catalina",
+                        "codigo": "185"
+                    },
+                    {
+                        "ciudad": "Santa Rosa",
+                        "codigo": "186"
+                    },
+                    {
+                        "ciudad": "Santa Rosa Del Sur",
+                        "codigo": "187"
+                    },
+                    {
+                        "ciudad": "Simiti",
+                        "codigo": "188"
+                    },
+                    {
+                        "ciudad": "Soplaviento",
+                        "codigo": "189"
+                    },
+                    {
+                        "ciudad": "Talaigua Nuevo",
+                        "codigo": "190"
+                    },
+                    {
+                        "ciudad": "Tiquisio",
+                        "codigo": "191"
+                    },
+                    {
+                        "ciudad": "Turbaco",
+                        "codigo": "192"
+                    },
+                    {
+                        "ciudad": "Turbana",
+                        "codigo": "193"
+                    },
+                    {
+                        "ciudad": "Villanueva",
+                        "codigo": "194"
+                    },
+                    {
+                        "ciudad": "Zambrano",
+                        "codigo": "195"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Boyacá":[
+                    {
+                        "ciudad": "Tunja",
+                        "codigo": "196"
+                    },
+                    {
+                        "ciudad": "Almeida",
+                        "codigo": "197"
+                    },
+                    {
+                        "ciudad": "Aquitania",
+                        "codigo": "198"
+                    },
+                    {
+                        "ciudad": "Arcabuco",
+                        "codigo": "199"
+                    },
+                    {
+                        "ciudad": "Belen",
+                        "codigo": "200"
+                    },
+                    {
+                        "ciudad": "Berbeo",
+                        "codigo": "201"
+                    },
+                    {
+                        "ciudad": "Beteitiva",
+                        "codigo": "202"
+                    },
+                    {
+                        "ciudad": "Boavita",
+                        "codigo": "203"
+                    },
+                    {
+                        "ciudad": "Boyaca",
+                        "codigo": "204"
+                    },
+                    {
+                        "ciudad": "Briceño",
+                        "codigo": "205"
+                    },
+                    {
+                        "ciudad": "Buenavista",
+                        "codigo": "206"
+                    },
+                    {
+                        "ciudad": "Busbanza",
+                        "codigo": "207"
+                    },
+                    {
+                        "ciudad": "Caldas",
+                        "codigo": "208"
+                    },
+                    {
+                        "ciudad": "Campohermoso",
+                        "codigo": "209"
+                    },
+                    {
+                        "ciudad": "Cerinza",
+                        "codigo": "210"
+                    },
+                    {
+                        "ciudad": "Chinavita",
+                        "codigo": "211"
+                    },
+                    {
+                        "ciudad": "Chiquinquira",
+                        "codigo": "212"
+                    },
+                    {
+                        "ciudad": "Chiscas",
+                        "codigo": "213"
+                    },
+                    {
+                        "ciudad": "Chita",
+                        "codigo": "214"
+                    },
+                    {
+                        "ciudad": "Chitaraque",
+                        "codigo": "215"
+                    },
+                    {
+                        "ciudad": "Chivata",
+                        "codigo": "216"
+                    },
+                    {
+                        "ciudad": "Cienega",
+                        "codigo": "217"
+                    },
+                    {
+                        "ciudad": "Combita",
+                        "codigo": "218"
+                    },
+                    {
+                        "ciudad": "Coper",
+                        "codigo": "219"
+                    },
+                    {
+                        "ciudad": "Corrales",
+                        "codigo": "220"
+                    },
+                    {
+                        "ciudad": "Covarachia",
+                        "codigo": "221"
+                    },
+                    {
+                        "ciudad": "Cubara",
+                        "codigo": "222"
+                    },
+                    {
+                        "ciudad": "Cucaita",
+                        "codigo": "223"
+                    },
+                    {
+                        "ciudad": "Cuitiva",
+                        "codigo": "224"
+                    },
+                    {
+                        "ciudad": "Chiquiza",
+                        "codigo": "225"
+                    },
+                    {
+                        "ciudad": "Chivor",
+                        "codigo": "226"
+                    },
+                    {
+                        "ciudad": "Duitama",
+                        "codigo": "227"
+                    },
+                    {
+                        "ciudad": "El Cocuy",
+                        "codigo": "228"
+                    },
+                    {
+                        "ciudad": "El Espino",
+                        "codigo": "229"
+                    },
+                    {
+                        "ciudad": "Firavitoba",
+                        "codigo": "230"
+                    },
+                    {
+                        "ciudad": "Floresta",
+                        "codigo": "231"
+                    },
+                    {
+                        "ciudad": "Gachantiva",
+                        "codigo": "232"
+                    },
+                    {
+                        "ciudad": "Gameza",
+                        "codigo": "233"
+                    },
+                    {
+                        "ciudad": "Garagoa",
+                        "codigo": "234"
+                    },
+                    {
+                        "ciudad": "Guacamayas",
+                        "codigo": "235"
+                    },
+                    {
+                        "ciudad": "Guateque",
+                        "codigo": "236"
+                    },
+                    {
+                        "ciudad": "Guayata",
+                        "codigo": "237"
+                    },
+                    {
+                        "ciudad": "Gsican",
+                        "codigo": "238"
+                    },
+                    {
+                        "ciudad": "Iza",
+                        "codigo": "239"
+                    },
+                    {
+                        "ciudad": "Jenesano",
+                        "codigo": "240"
+                    },
+                    {
+                        "ciudad": "Jerico",
+                        "codigo": "241"
+                    },
+                    {
+                        "ciudad": "Labranzagrande",
+                        "codigo": "242"
+                    },
+                    {
+                        "ciudad": "La Capilla",
+                        "codigo": "243"
+                    },
+                    {
+                        "ciudad": "La Victoria",
+                        "codigo": "244"
+                    },
+                    {
+                        "ciudad": "La Uvita",
+                        "codigo": "245"
+                    },
+                    {
+                        "ciudad": "Villa De Leyva",
+                        "codigo": "246"
+                    },
+                    {
+                        "ciudad": "Macanal",
+                        "codigo": "247"
+                    },
+                    {
+                        "ciudad": "Maripi",
+                        "codigo": "248"
+                    },
+                    {
+                        "ciudad": "Miraflores",
+                        "codigo": "249"
+                    },
+                    {
+                        "ciudad": "Mongua",
+                        "codigo": "250"
+                    },
+                    {
+                        "ciudad": "Mongui",
+                        "codigo": "251"
+                    },
+                    {
+                        "ciudad": "Moniquira",
+                        "codigo": "252"
+                    },
+                    {
+                        "ciudad": "Motavita",
+                        "codigo": "253"
+                    },
+                    {
+                        "ciudad": "Muzo",
+                        "codigo": "254"
+                    },
+                    {
+                        "ciudad": "Nobsa",
+                        "codigo": "255"
+                    },
+                    {
+                        "ciudad": "Nuevo Colon",
+                        "codigo": "256"
+                    },
+                    {
+                        "ciudad": "Oicata",
+                        "codigo": "257"
+                    },
+                    {
+                        "ciudad": "Otanche",
+                        "codigo": "258"
+                    },
+                    {
+                        "ciudad": "Pachavita",
+                        "codigo": "259"
+                    },
+                    {
+                        "ciudad": "Paez",
+                        "codigo": "260"
+                    },
+                    {
+                        "ciudad": "Paipa",
+                        "codigo": "261"
+                    },
+                    {
+                        "ciudad": "Pajarito",
+                        "codigo": "262"
+                    },
+                    {
+                        "ciudad": "Panqueba",
+                        "codigo": "263"
+                    },
+                    {
+                        "ciudad": "Pauna",
+                        "codigo": "264"
+                    },
+                    {
+                        "ciudad": "Paya",
+                        "codigo": "265"
+                    },
+                    {
+                        "ciudad": "Paz De Rio",
+                        "codigo": "266"
+                    },
+                    {
+                        "ciudad": "Pesca",
+                        "codigo": "267"
+                    },
+                    {
+                        "ciudad": "Pisba",
+                        "codigo": "268"
+                    },
+                    {
+                        "ciudad": "Puerto Boyaca",
+                        "codigo": "269"
+                    },
+                    {
+                        "ciudad": "Quipama",
+                        "codigo": "270"
+                    },
+                    {
+                        "ciudad": "Ramiriqui",
+                        "codigo": "271"
+                    },
+                    {
+                        "ciudad": "Raquira",
+                        "codigo": "272"
+                    },
+                    {
+                        "ciudad": "Rondon",
+                        "codigo": "273"
+                    },
+                    {
+                        "ciudad": "Saboya",
+                        "codigo": "274"
+                    },
+                    {
+                        "ciudad": "Sachica",
+                        "codigo": "275"
+                    },
+                    {
+                        "ciudad": "Samaca",
+                        "codigo": "276"
+                    },
+                    {
+                        "ciudad": "San Eduardo",
+                        "codigo": "277"
+                    },
+                    {
+                        "ciudad": "San Jose De Pare",
+                        "codigo": "278"
+                    },
+                    {
+                        "ciudad": "San Luis De Gaceno",
+                        "codigo": "279"
+                    },
+                    {
+                        "ciudad": "San Mateo",
+                        "codigo": "280"
+                    },
+                    {
+                        "ciudad": "San Miguel De Sema",
+                        "codigo": "281"
+                    },
+                    {
+                        "ciudad": "San Pablo De Borbur",
+                        "codigo": "282"
+                    },
+                    {
+                        "ciudad": "Santana",
+                        "codigo": "283"
+                    },
+                    {
+                        "ciudad": "Santa Maria",
+                        "codigo": "284"
+                    },
+                    {
+                        "ciudad": "Santa Rosa De Viterbo",
+                        "codigo": "285"
+                    },
+                    {
+                        "ciudad": "Santa Sofia",
+                        "codigo": "286"
+                    },
+                    {
+                        "ciudad": "Sativanorte",
+                        "codigo": "287"
+                    },
+                    {
+                        "ciudad": "Sativasur",
+                        "codigo": "288"
+                    },
+                    {
+                        "ciudad": "Siachoque",
+                        "codigo": "289"
+                    },
+                    {
+                        "ciudad": "Soata",
+                        "codigo": "290"
+                    },
+                    {
+                        "ciudad": "Socota",
+                        "codigo": "291"
+                    },
+                    {
+                        "ciudad": "Socha",
+                        "codigo": "292"
+                    },
+                    {
+                        "ciudad": "Sogamoso",
+                        "codigo": "293"
+                    },
+                    {
+                        "ciudad": "Somondoco",
+                        "codigo": "294"
+                    },
+                    {
+                        "ciudad": "Sora",
+                        "codigo": "295"
+                    },
+                    {
+                        "ciudad": "Sotaquira",
+                        "codigo": "296"
+                    },
+                    {
+                        "ciudad": "Soraca",
+                        "codigo": "297"
+                    },
+                    {
+                        "ciudad": "Susacon",
+                        "codigo": "298"
+                    },
+                    {
+                        "ciudad": "Sutamarchan",
+                        "codigo": "299"
+                    },
+                    {
+                        "ciudad": "Sutatenza",
+                        "codigo": "300"
+                    },
+                    {
+                        "ciudad": "Tasco",
+                        "codigo": "301"
+                    },
+                    {
+                        "ciudad": "Tenza",
+                        "codigo": "302"
+                    },
+                    {
+                        "ciudad": "Tibana",
+                        "codigo": "303"
+                    },
+                    {
+                        "ciudad": "Tibasosa",
+                        "codigo": "304"
+                    },
+                    {
+                        "ciudad": "Tinjaca",
+                        "codigo": "305"
+                    },
+                    {
+                        "ciudad": "Tipacoque",
+                        "codigo": "306"
+                    },
+                    {
+                        "ciudad": "Toca",
+                        "codigo": "307"
+                    },
+                    {
+                        "ciudad": "Togsi",
+                        "codigo": "308"
+                    },
+                    {
+                        "ciudad": "Topaga",
+                        "codigo": "309"
+                    },
+                    {
+                        "ciudad": "Tota",
+                        "codigo": "310"
+                    },
+                    {
+                        "ciudad": "Tunungua",
+                        "codigo": "311"
+                    },
+                    {
+                        "ciudad": "Turmeque",
+                        "codigo": "312"
+                    },
+                    {
+                        "ciudad": "Tuta",
+                        "codigo": "313"
+                    },
+                    {
+                        "ciudad": "Tutaza",
+                        "codigo": "314"
+                    },
+                    {
+                        "ciudad": "Umbita",
+                        "codigo": "315"
+                    },
+                    {
+                        "ciudad": "Ventaquemada",
+                        "codigo": "316"
+                    },
+                    {
+                        "ciudad": "Viracacha",
+                        "codigo": "317"
+                    },
+                    {
+                        "ciudad": "Zetaquira",
+                        "codigo": "318"
+                    }
+                ]
+            }    
+        },
+        {
+            "depto":{ 
+                "Caldas":[
+                    {
+                        "ciudad": "Manizales",
+                        "codigo": "319"
+                    },
+                    {
+                        "ciudad": "Aguadas",
+                        "codigo": "320"
+                    },
+                    {
+                        "ciudad": "Anserma",
+                        "codigo": "321"
+                    },
+                    {
+                        "ciudad": "Aranzazu",
+                        "codigo": "322"
+                    },
+                    {
+                        "ciudad": "Belalcazar",
+                        "codigo": "323"
+                    },
+                    {
+                        "ciudad": "Chinchina",
+                        "codigo": "324"
+                    },
+                    {
+                        "ciudad": "Filadelfia",
+                        "codigo": "325"
+                    },
+                    {
+                        "ciudad": "La Dorada",
+                        "codigo": "326"
+                    },
+                    {
+                        "ciudad": "La Merced",
+                        "codigo": "327"
+                    },
+                    {
+                        "ciudad": "Manzanares",
+                        "codigo": "328"
+                    },
+                    {
+                        "ciudad": "Marmato",
+                        "codigo": "329"
+                    },
+                    {
+                        "ciudad": "Marquetalia",
+                        "codigo": "330"
+                    },
+                    {
+                        "ciudad": "Marulanda",
+                        "codigo": "331"
+                    },
+                    {
+                        "ciudad": "Neira",
+                        "codigo": "332"
+                    },
+                    {
+                        "ciudad": "Norcasia",
+                        "codigo": "333"
+                    },
+                    {
+                        "ciudad": "Pacora",
+                        "codigo": "334"
+                    },
+                    {
+                        "ciudad": "Palestina",
+                        "codigo": "335"
+                    },
+                    {
+                        "ciudad": "Pensilvania",
+                        "codigo": "336"
+                    },
+                    {
+                        "ciudad": "Riosucio",
+                        "codigo": "337"
+                    },
+                    {
+                        "ciudad": "Risaralda",
+                        "codigo": "338"
+                    },
+                    {
+                        "ciudad": "Salamina",
+                        "codigo": "339"
+                    },
+                    {
+                        "ciudad": "Samana",
+                        "codigo": "340"
+                    },
+                    {
+                        "ciudad": "San Jose",
+                        "codigo": "341"
+                    },
+                    {
+                        "ciudad": "Supia",
+                        "codigo": "342"
+                    },
+                    {
+                        "ciudad": "Victoria",
+                        "codigo": "343"
+                    },
+                    {
+                        "ciudad": "Villamaria",
+                        "codigo": "344"
+                    },
+                    {
+                        "ciudad": "Viterbo",
+                        "codigo": "345"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Caquetá":[
+                    {
+                        "ciudad": "Florencia",
+                        "codigo": "346"
+                    },
+                    {
+                        "ciudad": "Albania",
+                        "codigo": "347"
+                    },
+                    {
+                        "ciudad": "Belen De Los Andaquies",
+                        "codigo": "348"
+                    },
+                    {
+                        "ciudad": "Cartagena Del Chaira",
+                        "codigo": "349"
+                    },
+                    {
+                        "ciudad": "Curillo",
+                        "codigo": "350"
+                    },
+                    {
+                        "ciudad": "El Doncello",
+                        "codigo": "351"
+                    },
+                    {
+                        "ciudad": "El Paujil",
+                        "codigo": "352"
+                    },
+                    {
+                        "ciudad": "La Montañita",
+                        "codigo": "353"
+                    },
+                    {
+                        "ciudad": "Milan",
+                        "codigo": "354"
+                    },
+                    {
+                        "ciudad": "Morelia",
+                        "codigo": "355"
+                    },
+                    {
+                        "ciudad": "Puerto Rico",
+                        "codigo": "356"
+                    },
+                    {
+                        "ciudad": "San Jose Del Fragua",
+                        "codigo": "357"
+                    },
+                    {
+                        "ciudad": "San Vicente Del Caguan",
+                        "codigo": "358"
+                    },
+                    {
+                        "ciudad": "Solano",
+                        "codigo": "359"
+                    },
+                    {
+                        "ciudad": "Solita",
+                        "codigo": "360"
+                    },
+                    {
+                        "ciudad": "Valparaiso",
+                        "codigo": "361"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Cauca":[
+                    {
+                        "ciudad": "Popayan",
+                        "codigo": "362"
+                    },
+                    {
+                        "ciudad": "Almaguer",
+                        "codigo": "363"
+                    },
+                    {
+                        "ciudad": "Argelia",
+                        "codigo": "364"
+                    },
+                    {
+                        "ciudad": "Balboa",
+                        "codigo": "365"
+                    },
+                    {
+                        "ciudad": "Bolivar",
+                        "codigo": "366"
+                    },
+                    {
+                        "ciudad": "Buenos Aires",
+                        "codigo": "367"
+                    },
+                    {
+                        "ciudad": "Cajibio",
+                        "codigo": "368"
+                    },
+                    {
+                        "ciudad": "Caldono",
+                        "codigo": "369"
+                    },
+                    {
+                        "ciudad": "Caloto",
+                        "codigo": "370"
+                    },
+                    {
+                        "ciudad": "Corinto",
+                        "codigo": "371"
+                    },
+                    {
+                        "ciudad": "El Tambo",
+                        "codigo": "372"
+                    },
+                    {
+                        "ciudad": "Florencia",
+                        "codigo": "373"
+                    },
+                    {
+                        "ciudad": "Guachene",
+                        "codigo": "374"
+                    },
+                    {
+                        "ciudad": "Guapi",
+                        "codigo": "375"
+                    },
+                    {
+                        "ciudad": "Inza",
+                        "codigo": "376"
+                    },
+                    {
+                        "ciudad": "Jambalo",
+                        "codigo": "377"
+                    },
+                    {
+                        "ciudad": "La Sierra",
+                        "codigo": "378"
+                    },
+                    {
+                        "ciudad": "La Vega",
+                        "codigo": "379"
+                    },
+                    {
+                        "ciudad": "Lopez",
+                        "codigo": "380"
+                    },
+                    {
+                        "ciudad": "Mercaderes",
+                        "codigo": "381"
+                    },
+                    {
+                        "ciudad": "Miranda",
+                        "codigo": "382"
+                    },
+                    {
+                        "ciudad": "Morales",
+                        "codigo": "383"
+                    },
+                    {
+                        "ciudad": "Padilla",
+                        "codigo": "384"
+                    },
+                    {
+                        "ciudad": "Paez",
+                        "codigo": "385"
+                    },
+                    {
+                        "ciudad": "Patia",
+                        "codigo": "386"
+                    },
+                    {
+                        "ciudad": "Piamonte",
+                        "codigo": "387"
+                    },
+                    {
+                        "ciudad": "Piendamo",
+                        "codigo": "388"
+                    },
+                    {
+                        "ciudad": "Puerto Tejada",
+                        "codigo": "389"
+                    },
+                    {
+                        "ciudad": "Purace",
+                        "codigo": "390"
+                    },
+                    {
+                        "ciudad": "Rosas",
+                        "codigo": "391"
+                    },
+                    {
+                        "ciudad": "San Sebastian",
+                        "codigo": "392"
+                    },
+                    {
+                        "ciudad": "Santander De Quilichao",
+                        "codigo": "393"
+                    },
+                    {
+                        "ciudad": "Santa Rosa",
+                        "codigo": "394"
+                    },
+                    {
+                        "ciudad": "Silvia",
+                        "codigo": "395"
+                    },
+                    {
+                        "ciudad": "Sotara",
+                        "codigo": "396"
+                    },
+                    {
+                        "ciudad": "Suarez",
+                        "codigo": "397"
+                    },
+                    {
+                        "ciudad": "Sucre",
+                        "codigo": "398"
+                    },
+                    {
+                        "ciudad": "Timbio",
+                        "codigo": "399"
+                    },
+                    {
+                        "ciudad": "Timbiqui",
+                        "codigo": "400"
+                    },
+                    {
+                        "ciudad": "Toribio",
+                        "codigo": "401"
+                    },
+                    {
+                        "ciudad": "Totoro",
+                        "codigo": "402"
+                    },
+                    {
+                        "ciudad": "Villa Rica",
+                        "codigo": "403"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Cesar":[
+                    {
+                        "ciudad": "Valledupar",
+                        "codigo": "404"
+                    },
+                    {
+                        "ciudad": "Aguachica",
+                        "codigo": "405"
+                    },
+                    {
+                        "ciudad": "Agustin Codazzi",
+                        "codigo": "406"
+                    },
+                    {
+                        "ciudad": "Astrea",
+                        "codigo": "407"
+                    },
+                    {
+                        "ciudad": "Becerril",
+                        "codigo": "408"
+                    },
+                    {
+                        "ciudad": "Bosconia",
+                        "codigo": "409"
+                    },
+                    {
+                        "ciudad": "Chimichagua",
+                        "codigo": "410"
+                    },
+                    {
+                        "ciudad": "Chiriguana",
+                        "codigo": "411"
+                    },
+                    {
+                        "ciudad": "Curumani",
+                        "codigo": "412"
+                    },
+                    {
+                        "ciudad": "El Copey",
+                        "codigo": "413"
+                    },
+                    {
+                        "ciudad": "El Paso",
+                        "codigo": "414"
+                    },
+                    {
+                        "ciudad": "Gamarra",
+                        "codigo": "415"
+                    },
+                    {
+                        "ciudad": "Gonzalez",
+                        "codigo": "416"
+                    },
+                    {
+                        "ciudad": "La Gloria",
+                        "codigo": "417"
+                    },
+                    {
+                        "ciudad": "La Jagua De Ibirico",
+                        "codigo": "418"
+                    },
+                    {
+                        "ciudad": "Manaure",
+                        "codigo": "419"
+                    },
+                    {
+                        "ciudad": "Pailitas",
+                        "codigo": "420"
+                    },
+                    {
+                        "ciudad": "Pelaya",
+                        "codigo": "421"
+                    },
+                    {
+                        "ciudad": "Pueblo Bello",
+                        "codigo": "422"
+                    },
+                    {
+                        "ciudad": "Rio De Oro",
+                        "codigo": "423"
+                    },
+                    {
+                        "ciudad": "La Paz",
+                        "codigo": "424"
+                    },
+                    {
+                        "ciudad": "San Alberto",
+                        "codigo": "425"
+                    },
+                    {
+                        "ciudad": "San Diego",
+                        "codigo": "426"
+                    },
+                    {
+                        "ciudad": "San Martin",
+                        "codigo": "427"
+                    },
+                    {
+                        "ciudad": "Tamalameque",
+                        "codigo": "428"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Córdoba":[
+                    {
+                        "ciudad": "Monteria",
+                        "codigo": "429"
+                    },
+                    {
+                        "ciudad": "Ayapel",
+                        "codigo": "430"
+                    },
+                    {
+                        "ciudad": "Buenavista",
+                        "codigo": "431"
+                    },
+                    {
+                        "ciudad": "Canalete",
+                        "codigo": "432"
+                    },
+                    {
+                        "ciudad": "Cerete",
+                        "codigo": "433"
+                    },
+                    {
+                        "ciudad": "Chima",
+                        "codigo": "434"
+                    },
+                    {
+                        "ciudad": "Chinu",
+                        "codigo": "435"
+                    },
+                    {
+                        "ciudad": "Cienaga De Oro",
+                        "codigo": "436"
+                    },
+                    {
+                        "ciudad": "Cotorra",
+                        "codigo": "437"
+                    },
+                    {
+                        "ciudad": "La Apartada",
+                        "codigo": "438"
+                    },
+                    {
+                        "ciudad": "Lorica",
+                        "codigo": "439"
+                    },
+                    {
+                        "ciudad": "Los Cordobas",
+                        "codigo": "440"
+                    },
+                    {
+                        "ciudad": "Momil",
+                        "codigo": "441"
+                    },
+                    {
+                        "ciudad": "Montelibano",
+                        "codigo": "442"
+                    },
+                    {
+                        "ciudad": "Moñitos",
+                        "codigo": "443"
+                    },
+                    {
+                        "ciudad": "Planeta Rica",
+                        "codigo": "444"
+                    },
+                    {
+                        "ciudad": "Pueblo Nuevo",
+                        "codigo": "445"
+                    },
+                    {
+                        "ciudad": "Puerto Escondido",
+                        "codigo": "446"
+                    },
+                    {
+                        "ciudad": "Puerto Libertador",
+                        "codigo": "447"
+                    },
+                    {
+                        "ciudad": "Purisima",
+                        "codigo": "448"
+                    },
+                    {
+                        "ciudad": "Sahagun",
+                        "codigo": "449"
+                    },
+                    {
+                        "ciudad": "San Andres Sotavento",
+                        "codigo": "450"
+                    },
+                    {
+                        "ciudad": "San Antero",
+                        "codigo": "451"
+                    },
+                    {
+                        "ciudad": "San Bernardo Del Viento",
+                        "codigo": "452"
+                    },
+                    {
+                        "ciudad": "San Carlos",
+                        "codigo": "453"
+                    },
+                    {
+                        "ciudad": "San Pelayo",
+                        "codigo": "454"
+                    },
+                    {
+                        "ciudad": "Tierralta",
+                        "codigo": "455"
+                    },
+                    {
+                        "ciudad": "Valencia",
+                        "codigo": "456"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Cundinamarca":[
+                    {
+                        "ciudad": "Agua De Dios",
+                        "codigo": "457"
+                    },
+                    {
+                        "ciudad": "Alban",
+                        "codigo": "458"
+                    },
+                    {
+                        "ciudad": "Anapoima",
+                        "codigo": "459"
+                    },
+                    {
+                        "ciudad": "Anolaima",
+                        "codigo": "460"
+                    },
+                    {
+                        "ciudad": "Arbelaez",
+                        "codigo": "461"
+                    },
+                    {
+                        "ciudad": "Beltran",
+                        "codigo": "462"
+                    },
+                    {
+                        "ciudad": "Bituima",
+                        "codigo": "463"
+                    },
+                    {
+                        "ciudad": "Bojaca",
+                        "codigo": "464"
+                    },
+                    {
+                        "ciudad": "Cabrera",
+                        "codigo": "465"
+                    },
+                    {
+                        "ciudad": "Cachipay",
+                        "codigo": "466"
+                    },
+                    {
+                        "ciudad": "Cajica",
+                        "codigo": "467"
+                    },
+                    {
+                        "ciudad": "Caparrapi",
+                        "codigo": "468"
+                    },
+                    {
+                        "ciudad": "Caqueza",
+                        "codigo": "469"
+                    },
+                    {
+                        "ciudad": "Carmen De Carupa",
+                        "codigo": "470"
+                    },
+                    {
+                        "ciudad": "Chaguani",
+                        "codigo": "471"
+                    },
+                    {
+                        "ciudad": "Chia",
+                        "codigo": "472"
+                    },
+                    {
+                        "ciudad": "Chipaque",
+                        "codigo": "473"
+                    },
+                    {
+                        "ciudad": "Choachi",
+                        "codigo": "474"
+                    },
+                    {
+                        "ciudad": "Choconta",
+                        "codigo": "475"
+                    },
+                    {
+                        "ciudad": "Cogua",
+                        "codigo": "476"
+                    },
+                    {
+                        "ciudad": "Cota",
+                        "codigo": "477"
+                    },
+                    {
+                        "ciudad": "Cucunuba",
+                        "codigo": "478"
+                    },
+                    {
+                        "ciudad": "El Colegio",
+                        "codigo": "479"
+                    },
+                    {
+                        "ciudad": "El Peñon",
+                        "codigo": "480"
+                    },
+                    {
+                        "ciudad": "El Rosal",
+                        "codigo": "481"
+                    },
+                    {
+                        "ciudad": "Facatativa",
+                        "codigo": "482"
+                    },
+                    {
+                        "ciudad": "Fomeque",
+                        "codigo": "483"
+                    },
+                    {
+                        "ciudad": "Fosca",
+                        "codigo": "484"
+                    },
+                    {
+                        "ciudad": "Funza",
+                        "codigo": "485"
+                    },
+                    {
+                        "ciudad": "Fuquene",
+                        "codigo": "486"
+                    },
+                    {
+                        "ciudad": "Fusagasuga",
+                        "codigo": "487"
+                    },
+                    {
+                        "ciudad": "Gachala",
+                        "codigo": "488"
+                    },
+                    {
+                        "ciudad": "Gachancipa",
+                        "codigo": "489"
+                    },
+                    {
+                        "ciudad": "Gacheta",
+                        "codigo": "490"
+                    },
+                    {
+                        "ciudad": "Gama",
+                        "codigo": "491"
+                    },
+                    {
+                        "ciudad": "Girardot",
+                        "codigo": "492"
+                    },
+                    {
+                        "ciudad": "Granada",
+                        "codigo": "493"
+                    },
+                    {
+                        "ciudad": "Guacheta",
+                        "codigo": "494"
+                    },
+                    {
+                        "ciudad": "Guaduas",
+                        "codigo": "495"
+                    },
+                    {
+                        "ciudad": "Guasca",
+                        "codigo": "496"
+                    },
+                    {
+                        "ciudad": "Guataqui",
+                        "codigo": "497"
+                    },
+                    {
+                        "ciudad": "Guatavita",
+                        "codigo": "498"
+                    },
+                    {
+                        "ciudad": "Guayabal De Siquima",
+                        "codigo": "499"
+                    },
+                    {
+                        "ciudad": "Guayabetal",
+                        "codigo": "500"
+                    },
+                    {
+                        "ciudad": "Gutierrez",
+                        "codigo": "501"
+                    },
+                    {
+                        "ciudad": "Jerusalen",
+                        "codigo": "502"
+                    },
+                    {
+                        "ciudad": "Junin",
+                        "codigo": "503"
+                    },
+                    {
+                        "ciudad": "La Calera",
+                        "codigo": "504"
+                    },
+                    {
+                        "ciudad": "La Mesa",
+                        "codigo": "505"
+                    },
+                    {
+                        "ciudad": "La Palma",
+                        "codigo": "506"
+                    },
+                    {
+                        "ciudad": "La Peña",
+                        "codigo": "507"
+                    },
+                    {
+                        "ciudad": "La Vega",
+                        "codigo": "508"
+                    },
+                    {
+                        "ciudad": "Lenguazaque",
+                        "codigo": "509"
+                    },
+                    {
+                        "ciudad": "Macheta",
+                        "codigo": "510"
+                    },
+                    {
+                        "ciudad": "Madrid",
+                        "codigo": "511"
+                    },
+                    {
+                        "ciudad": "Manta",
+                        "codigo": "512"
+                    },
+                    {
+                        "ciudad": "Medina",
+                        "codigo": "513"
+                    },
+                    {
+                        "ciudad": "Mosquera",
+                        "codigo": "514"
+                    },
+                    {
+                        "ciudad": "Nariño",
+                        "codigo": "515"
+                    },
+                    {
+                        "ciudad": "Nemocon",
+                        "codigo": "516"
+                    },
+                    {
+                        "ciudad": "Nilo",
+                        "codigo": "517"
+                    },
+                    {
+                        "ciudad": "Nimaima",
+                        "codigo": "518"
+                    },
+                    {
+                        "ciudad": "Nocaima",
+                        "codigo": "519"
+                    },
+                    {
+                        "ciudad": "Venecia",
+                        "codigo": "520"
+                    },
+                    {
+                        "ciudad": "Pacho",
+                        "codigo": "521"
+                    },
+                    {
+                        "ciudad": "Paime",
+                        "codigo": "522"
+                    },
+                    {
+                        "ciudad": "Pandi",
+                        "codigo": "523"
+                    },
+                    {
+                        "ciudad": "Paratebueno",
+                        "codigo": "524"
+                    },
+                    {
+                        "ciudad": "Pasca",
+                        "codigo": "525"
+                    },
+                    {
+                        "ciudad": "Puerto Salgar",
+                        "codigo": "526"
+                    },
+                    {
+                        "ciudad": "Puli",
+                        "codigo": "527"
+                    },
+                    {
+                        "ciudad": "Quebradanegra",
+                        "codigo": "528"
+                    },
+                    {
+                        "ciudad": "Quetame",
+                        "codigo": "529"
+                    },
+                    {
+                        "ciudad": "Quipile",
+                        "codigo": "530"
+                    },
+                    {
+                        "ciudad": "Apulo",
+                        "codigo": "531"
+                    },
+                    {
+                        "ciudad": "Ricaurte",
+                        "codigo": "532"
+                    },
+                    {
+                        "ciudad": "San Antonio Del Tequendama",
+                        "codigo": "533"
+                    },
+                    {
+                        "ciudad": "San Bernardo",
+                        "codigo": "534"
+                    },
+                    {
+                        "ciudad": "San Cayetano",
+                        "codigo": "535"
+                    },
+                    {
+                        "ciudad": "San Francisco",
+                        "codigo": "536"
+                    },
+                    {
+                        "ciudad": "San Juan De Rio Seco",
+                        "codigo": "537"
+                    },
+                    {
+                        "ciudad": "Sasaima",
+                        "codigo": "538"
+                    },
+                    {
+                        "ciudad": "Sesquile",
+                        "codigo": "539"
+                    },
+                    {
+                        "ciudad": "Sibate",
+                        "codigo": "540"
+                    },
+                    {
+                        "ciudad": "Silvania",
+                        "codigo": "541"
+                    },
+                    {
+                        "ciudad": "Simijaca",
+                        "codigo": "542"
+                    },
+                    {
+                        "ciudad": "Soacha",
+                        "codigo": "543"
+                    },
+                    {
+                        "ciudad": "Sopo",
+                        "codigo": "544"
+                    },
+                    {
+                        "ciudad": "Subachoque",
+                        "codigo": "545"
+                    },
+                    {
+                        "ciudad": "Suesca",
+                        "codigo": "546"
+                    },
+                    {
+                        "ciudad": "Supata",
+                        "codigo": "547"
+                    },
+                    {
+                        "ciudad": "Susa",
+                        "codigo": "548"
+                    },
+                    {
+                        "ciudad": "Sutatausa",
+                        "codigo": "549"
+                    },
+                    {
+                        "ciudad": "Tabio",
+                        "codigo": "550"
+                    },
+                    {
+                        "ciudad": "Tausa",
+                        "codigo": "551"
+                    },
+                    {
+                        "ciudad": "Tena",
+                        "codigo": "552"
+                    },
+                    {
+                        "ciudad": "Tenjo",
+                        "codigo": "553"
+                    },
+                    {
+                        "ciudad": "Tibacuy",
+                        "codigo": "554"
+                    },
+                    {
+                        "ciudad": "Tibirita",
+                        "codigo": "555"
+                    },
+                    {
+                        "ciudad": "Tocaima",
+                        "codigo": "556"
+                    },
+                    {
+                        "ciudad": "Tocancipa",
+                        "codigo": "557"
+                    },
+                    {
+                        "ciudad": "Topaipi",
+                        "codigo": "558"
+                    },
+                    {
+                        "ciudad": "Ubala",
+                        "codigo": "559"
+                    },
+                    {
+                        "ciudad": "Ubaque",
+                        "codigo": "560"
+                    },
+                    {
+                        "ciudad": "Villa De San Diego De Ubate",
+                        "codigo": "561"
+                    },
+                    {
+                        "ciudad": "Une",
+                        "codigo": "562"
+                    },
+                    {
+                        "ciudad": "Utica",
+                        "codigo": "563"
+                    },
+                    {
+                        "ciudad": "Vergara",
+                        "codigo": "564"
+                    },
+                    {
+                        "ciudad": "Viani",
+                        "codigo": "565"
+                    },
+                    {
+                        "ciudad": "Villagomez",
+                        "codigo": "566"
+                    },
+                    {
+                        "ciudad": "Villapinzon",
+                        "codigo": "567"
+                    },
+                    {
+                        "ciudad": "Villeta",
+                        "codigo": "568"
+                    },
+                    {
+                        "ciudad": "Viota",
+                        "codigo": "569"
+                    },
+                    {
+                        "ciudad": "Yacopi",
+                        "codigo": "570"
+                    },
+                    {
+                        "ciudad": "Zipacon",
+                        "codigo": "571"
+                    },
+                    {
+                        "ciudad": "Zipaquira",
+                        "codigo": "572"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Chocó":[
+                    {
+                        "ciudad": "Quibdo",
+                        "codigo": "573"
+                    },
+                    {
+                        "ciudad": "Acandi",
+                        "codigo": "574"
+                    },
+                    {
+                        "ciudad": "Alto Baudo",
+                        "codigo": "575"
+                    },
+                    {
+                        "ciudad": "Atrato",
+                        "codigo": "576"
+                    },
+                    {
+                        "ciudad": "Bagado",
+                        "codigo": "577"
+                    },
+                    {
+                        "ciudad": "Bahia Solano",
+                        "codigo": "578"
+                    },
+                    {
+                        "ciudad": "Bajo Baudo",
+                        "codigo": "579"
+                    },
+                    {
+                        "ciudad": "Bojaya",
+                        "codigo": "580"
+                    },
+                    {
+                        "ciudad": "El Canton Del San Pablo",
+                        "codigo": "581"
+                    },
+                    {
+                        "ciudad": "Carmen Del Darien",
+                        "codigo": "582"
+                    },
+                    {
+                        "ciudad": "Certegui",
+                        "codigo": "583"
+                    },
+                    {
+                        "ciudad": "Condoto",
+                        "codigo": "584"
+                    },
+                    {
+                        "ciudad": "El Carmen De Atrato",
+                        "codigo": "585"
+                    },
+                    {
+                        "ciudad": "El Litoral Del San Juan",
+                        "codigo": "586"
+                    },
+                    {
+                        "ciudad": "Istmina",
+                        "codigo": "587"
+                    },
+                    {
+                        "ciudad": "Jurado",
+                        "codigo": "588"
+                    },
+                    {
+                        "ciudad": "Lloro",
+                        "codigo": "589"
+                    },
+                    {
+                        "ciudad": "Medio Atrato",
+                        "codigo": "590"
+                    },
+                    {
+                        "ciudad": "Medio Baudo",
+                        "codigo": "591"
+                    },
+                    {
+                        "ciudad": "Medio San Juan",
+                        "codigo": "592"
+                    },
+                    {
+                        "ciudad": "Novita",
+                        "codigo": "593"
+                    },
+                    {
+                        "ciudad": "Nuqui",
+                        "codigo": "594"
+                    },
+                    {
+                        "ciudad": "Rio Iro",
+                        "codigo": "595"
+                    },
+                    {
+                        "ciudad": "Rio Quito",
+                        "codigo": "596"
+                    },
+                    {
+                        "ciudad": "Riosucio",
+                        "codigo": "597"
+                    },
+                    {
+                        "ciudad": "San Jose Del Palmar",
+                        "codigo": "598"
+                    },
+                    {
+                        "ciudad": "Sipi",
+                        "codigo": "599"
+                    },
+                    {
+                        "ciudad": "Tado",
+                        "codigo": "600"
+                    },
+                    {
+                        "ciudad": "Unguia",
+                        "codigo": "601"
+                    },
+                    {
+                        "ciudad": "Union Panamericana",
+                        "codigo": "602"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Huila":[
+                    {
+                        "ciudad": "Neiva",
+                        "codigo": "603"
+                    },
+                    {
+                        "ciudad": "Acevedo",
+                        "codigo": "604"
+                    },
+                    {
+                        "ciudad": "Agrado",
+                        "codigo": "605"
+                    },
+                    {
+                        "ciudad": "Aipe",
+                        "codigo": "606"
+                    },
+                    {
+                        "ciudad": "Algeciras",
+                        "codigo": "607"
+                    },
+                    {
+                        "ciudad": "Altamira",
+                        "codigo": "608"
+                    },
+                    {
+                        "ciudad": "Baraya",
+                        "codigo": "609"
+                    },
+                    {
+                        "ciudad": "Campoalegre",
+                        "codigo": "610"
+                    },
+                    {
+                        "ciudad": "Colombia",
+                        "codigo": "611"
+                    },
+                    {
+                        "ciudad": "Elias",
+                        "codigo": "612"
+                    },
+                    {
+                        "ciudad": "Garzon",
+                        "codigo": "613"
+                    },
+                    {
+                        "ciudad": "Gigante",
+                        "codigo": "614"
+                    },
+                    {
+                        "ciudad": "Guadalupe",
+                        "codigo": "615"
+                    },
+                    {
+                        "ciudad": "Hobo",
+                        "codigo": "616"
+                    },
+                    {
+                        "ciudad": "Iquira",
+                        "codigo": "617"
+                    },
+                    {
+                        "ciudad": "Isnos",
+                        "codigo": "618"
+                    },
+                    {
+                        "ciudad": "La Argentina",
+                        "codigo": "619"
+                    },
+                    {
+                        "ciudad": "La Plata",
+                        "codigo": "620"
+                    },
+                    {
+                        "ciudad": "Nataga",
+                        "codigo": "621"
+                    },
+                    {
+                        "ciudad": "Oporapa",
+                        "codigo": "622"
+                    },
+                    {
+                        "ciudad": "Paicol",
+                        "codigo": "623"
+                    },
+                    {
+                        "ciudad": "Palermo",
+                        "codigo": "624"
+                    },
+                    {
+                        "ciudad": "Palestina",
+                        "codigo": "625"
+                    },
+                    {
+                        "ciudad": "Pital",
+                        "codigo": "626"
+                    },
+                    {
+                        "ciudad": "Pitalito",
+                        "codigo": "627"
+                    },
+                    {
+                        "ciudad": "Rivera",
+                        "codigo": "628"
+                    },
+                    {
+                        "ciudad": "Saladoblanco",
+                        "codigo": "629"
+                    },
+                    {
+                        "ciudad": "San Agustin",
+                        "codigo": "630"
+                    },
+                    {
+                        "ciudad": "Santa Maria",
+                        "codigo": "631"
+                    },
+                    {
+                        "ciudad": "Suaza",
+                        "codigo": "632"
+                    },
+                    {
+                        "ciudad": "Tarqui",
+                        "codigo": "633"
+                    },
+                    {
+                        "ciudad": "Tesalia",
+                        "codigo": "634"
+                    },
+                    {
+                        "ciudad": "Tello",
+                        "codigo": "635"
+                    },
+                    {
+                        "ciudad": "Teruel",
+                        "codigo": "636"
+                    },
+                    {
+                        "ciudad": "Timana",
+                        "codigo": "637"
+                    },
+                    {
+                        "ciudad": "Villavieja",
+                        "codigo": "638"
+                    },
+                    {
+                        "ciudad": "Yaguara",
+                        "codigo": "639"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "La Guajira":[
+                    {
+                        "ciudad": "Riohacha",
+                        "codigo": "640"
+                    },
+                    {
+                        "ciudad": "Albania",
+                        "codigo": "641"
+                    },
+                    {
+                        "ciudad": "Barrancas",
+                        "codigo": "642"
+                    },
+                    {
+                        "ciudad": "Dibulla",
+                        "codigo": "643"
+                    },
+                    {
+                        "ciudad": "Distraccion",
+                        "codigo": "644"
+                    },
+                    {
+                        "ciudad": "El Molino",
+                        "codigo": "645"
+                    },
+                    {
+                        "ciudad": "Fonseca",
+                        "codigo": "646"
+                    },
+                    {
+                        "ciudad": "Hatonuevo",
+                        "codigo": "647"
+                    },
+                    {
+                        "ciudad": "La Jagua Del Pilar",
+                        "codigo": "648"
+                    },
+                    {
+                        "ciudad": "Maicao",
+                        "codigo": "649"
+                    },
+                    {
+                        "ciudad": "Manaure",
+                        "codigo": "650"
+                    },
+                    {
+                        "ciudad": "San Juan Del Cesar",
+                        "codigo": "651"
+                    },
+                    {
+                        "ciudad": "Uribia",
+                        "codigo": "652"
+                    },
+                    {
+                        "ciudad": "Urumita",
+                        "codigo": "653"
+                    },
+                    {
+                        "ciudad": "Villanueva",
+                        "codigo": "654"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Magdalena":[
+                    {
+                        "ciudad": "Santa Marta",
+                        "codigo": "655"
+                    },
+                    {
+                        "ciudad": "Algarrobo",
+                        "codigo": "656"
+                    },
+                    {
+                        "ciudad": "Aracataca",
+                        "codigo": "657"
+                    },
+                    {
+                        "ciudad": "Ariguani",
+                        "codigo": "658"
+                    },
+                    {
+                        "ciudad": "Cerro San Antonio",
+                        "codigo": "659"
+                    },
+                    {
+                        "ciudad": "Chibolo",
+                        "codigo": "660"
+                    },
+                    {
+                        "ciudad": "Cienaga",
+                        "codigo": "661"
+                    },
+                    {
+                        "ciudad": "Concordia",
+                        "codigo": "662"
+                    },
+                    {
+                        "ciudad": "El Banco",
+                        "codigo": "663"
+                    },
+                    {
+                        "ciudad": "El Piñon",
+                        "codigo": "664"
+                    },
+                    {
+                        "ciudad": "El Reten",
+                        "codigo": "665"
+                    },
+                    {
+                        "ciudad": "Fundacion",
+                        "codigo": "666"
+                    },
+                    {
+                        "ciudad": "Guamal",
+                        "codigo": "667"
+                    },
+                    {
+                        "ciudad": "Nueva Granada",
+                        "codigo": "668"
+                    },
+                    {
+                        "ciudad": "Pedraza",
+                        "codigo": "669"
+                    },
+                    {
+                        "ciudad": "Pijiño Del Carmen",
+                        "codigo": "670"
+                    },
+                    {
+                        "ciudad": "Pivijay",
+                        "codigo": "671"
+                    },
+                    {
+                        "ciudad": "Plato",
+                        "codigo": "672"
+                    },
+                    {
+                        "ciudad": "Puebloviejo",
+                        "codigo": "673"
+                    },
+                    {
+                        "ciudad": "Remolino",
+                        "codigo": "674"
+                    },
+                    {
+                        "ciudad": "Sabanas De San Angel",
+                        "codigo": "675"
+                    },
+                    {
+                        "ciudad": "Salamina",
+                        "codigo": "676"
+                    },
+                    {
+                        "ciudad": "San Sebastian De Buenavista",
+                        "codigo": "677"
+                    },
+                    {
+                        "ciudad": "San Zenon",
+                        "codigo": "678"
+                    },
+                    {
+                        "ciudad": "Santa Ana",
+                        "codigo": "679"
+                    },
+                    {
+                        "ciudad": "Santa Barbara De Pinto",
+                        "codigo": "680"
+                    },
+                    {
+                        "ciudad": "Sitionuevo",
+                        "codigo": "681"
+                    },
+                    {
+                        "ciudad": "Tenerife",
+                        "codigo": "682"
+                    },
+                    {
+                        "ciudad": "Zapayan",
+                        "codigo": "683"
+                    },
+                    {
+                        "ciudad": "Zona Bananera",
+                        "codigo": "684"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Meta":[
+                    {
+                        "ciudad": "Villavicencio",
+                        "codigo": "685"
+                    },
+                    {
+                        "ciudad": "Acacias",
+                        "codigo": "686"
+                    },
+                    {
+                        "ciudad": "Barranca De Upia",
+                        "codigo": "687"
+                    },
+                    {
+                        "ciudad": "Cabuyaro",
+                        "codigo": "688"
+                    },
+                    {
+                        "ciudad": "Castilla La Nueva",
+                        "codigo": "689"
+                    },
+                    {
+                        "ciudad": "Cubarral",
+                        "codigo": "690"
+                    },
+                    {
+                        "ciudad": "Cumaral",
+                        "codigo": "691"
+                    },
+                    {
+                        "ciudad": "El Calvario",
+                        "codigo": "692"
+                    },
+                    {
+                        "ciudad": "El Castillo",
+                        "codigo": "693"
+                    },
+                    {
+                        "ciudad": "El Dorado",
+                        "codigo": "694"
+                    },
+                    {
+                        "ciudad": "Fuente De Oro",
+                        "codigo": "695"
+                    },
+                    {
+                        "ciudad": "Granada",
+                        "codigo": "696"
+                    },
+                    {
+                        "ciudad": "Guamal",
+                        "codigo": "697"
+                    },
+                    {
+                        "ciudad": "Mapiripan",
+                        "codigo": "698"
+                    },
+                    {
+                        "ciudad": "Mesetas",
+                        "codigo": "699"
+                    },
+                    {
+                        "ciudad": "La Macarena",
+                        "codigo": "700"
+                    },
+                    {
+                        "ciudad": "Uribe",
+                        "codigo": "701"
+                    },
+                    {
+                        "ciudad": "Lejanias",
+                        "codigo": "702"
+                    },
+                    {
+                        "ciudad": "Puerto Concordia",
+                        "codigo": "703"
+                    },
+                    {
+                        "ciudad": "Puerto Gaitan",
+                        "codigo": "704"
+                    },
+                    {
+                        "ciudad": "Puerto Lopez",
+                        "codigo": "705"
+                    },
+                    {
+                        "ciudad": "Puerto Lleras",
+                        "codigo": "706"
+                    },
+                    {
+                        "ciudad": "Puerto Rico",
+                        "codigo": "707"
+                    },
+                    {
+                        "ciudad": "Restrepo",
+                        "codigo": "708"
+                    },
+                    {
+                        "ciudad": "San Carlos De Guaroa",
+                        "codigo": "709"
+                    },
+                    {
+                        "ciudad": "San Juan De Arama",
+                        "codigo": "710"
+                    },
+                    {
+                        "ciudad": "San Juanito",
+                        "codigo": "711"
+                    },
+                    {
+                        "ciudad": "San Martin",
+                        "codigo": "712"
+                    },
+                    {
+                        "ciudad": "Vistahermosa",
+                        "codigo": "713"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Nariño":[
+                    {
+                        "ciudad": "Pasto",
+                        "codigo": "714"
+                    },
+                    {
+                        "ciudad": "Alban",
+                        "codigo": "715"
+                    },
+                    {
+                        "ciudad": "Aldana",
+                        "codigo": "716"
+                    },
+                    {
+                        "ciudad": "Ancuya",
+                        "codigo": "717"
+                    },
+                    {
+                        "ciudad": "Arboleda",
+                        "codigo": "718"
+                    },
+                    {
+                        "ciudad": "Barbacoas",
+                        "codigo": "719"
+                    },
+                    {
+                        "ciudad": "Belen",
+                        "codigo": "720"
+                    },
+                    {
+                        "ciudad": "Buesaco",
+                        "codigo": "721"
+                    },
+                    {
+                        "ciudad": "Colon",
+                        "codigo": "722"
+                    },
+                    {
+                        "ciudad": "Consaca",
+                        "codigo": "723"
+                    },
+                    {
+                        "ciudad": "Contadero",
+                        "codigo": "724"
+                    },
+                    {
+                        "ciudad": "Cordoba",
+                        "codigo": "725"
+                    },
+                    {
+                        "ciudad": "Cuaspud",
+                        "codigo": "726"
+                    },
+                    {
+                        "ciudad": "Cumbal",
+                        "codigo": "727"
+                    },
+                    {
+                        "ciudad": "Cumbitara",
+                        "codigo": "728"
+                    },
+                    {
+                        "ciudad": "Chachagsi",
+                        "codigo": "729"
+                    },
+                    {
+                        "ciudad": "El Charco",
+                        "codigo": "730"
+                    },
+                    {
+                        "ciudad": "El Peñol",
+                        "codigo": "731"
+                    },
+                    {
+                        "ciudad": "El Rosario",
+                        "codigo": "732"
+                    },
+                    {
+                        "ciudad": "El Tablon De Gomez",
+                        "codigo": "733"
+                    },
+                    {
+                        "ciudad": "El Tambo",
+                        "codigo": "734"
+                    },
+                    {
+                        "ciudad": "Funes",
+                        "codigo": "735"
+                    },
+                    {
+                        "ciudad": "Guachucal",
+                        "codigo": "736"
+                    },
+                    {
+                        "ciudad": "Guaitarilla",
+                        "codigo": "737"
+                    },
+                    {
+                        "ciudad": "Gualmatan",
+                        "codigo": "738"
+                    },
+                    {
+                        "ciudad": "Iles",
+                        "codigo": "739"
+                    },
+                    {
+                        "ciudad": "Imues",
+                        "codigo": "740"
+                    },
+                    {
+                        "ciudad": "Ipiales",
+                        "codigo": "741"
+                    },
+                    {
+                        "ciudad": "La Cruz",
+                        "codigo": "742"
+                    },
+                    {
+                        "ciudad": "La Florida",
+                        "codigo": "743"
+                    },
+                    {
+                        "ciudad": "La Llanada",
+                        "codigo": "744"
+                    },
+                    {
+                        "ciudad": "La Tola",
+                        "codigo": "745"
+                    },
+                    {
+                        "ciudad": "La Union",
+                        "codigo": "746"
+                    },
+                    {
+                        "ciudad": "Leiva",
+                        "codigo": "747"
+                    },
+                    {
+                        "ciudad": "Linares",
+                        "codigo": "748"
+                    },
+                    {
+                        "ciudad": "Los Andes",
+                        "codigo": "749"
+                    },
+                    {
+                        "ciudad": "Magsi",
+                        "codigo": "750"
+                    },
+                    {
+                        "ciudad": "Mallama",
+                        "codigo": "751"
+                    },
+                    {
+                        "ciudad": "Mosquera",
+                        "codigo": "752"
+                    },
+                    {
+                        "ciudad": "Nariño",
+                        "codigo": "753"
+                    },
+                    {
+                        "ciudad": "Olaya Herrera",
+                        "codigo": "754"
+                    },
+                    {
+                        "ciudad": "Ospina",
+                        "codigo": "755"
+                    },
+                    {
+                        "ciudad": "Francisco Pizarro",
+                        "codigo": "756"
+                    },
+                    {
+                        "ciudad": "Policarpa",
+                        "codigo": "757"
+                    },
+                    {
+                        "ciudad": "Potosi",
+                        "codigo": "758"
+                    },
+                    {
+                        "ciudad": "Providencia",
+                        "codigo": "759"
+                    },
+                    {
+                        "ciudad": "Puerres",
+                        "codigo": "760"
+                    },
+                    {
+                        "ciudad": "Pupiales",
+                        "codigo": "761"
+                    },
+                    {
+                        "ciudad": "Ricaurte",
+                        "codigo": "762"
+                    },
+                    {
+                        "ciudad": "Roberto Payan",
+                        "codigo": "763"
+                    },
+                    {
+                        "ciudad": "Samaniego",
+                        "codigo": "764"
+                    },
+                    {
+                        "ciudad": "Sandona",
+                        "codigo": "765"
+                    },
+                    {
+                        "ciudad": "San Bernardo",
+                        "codigo": "766"
+                    },
+                    {
+                        "ciudad": "San Lorenzo",
+                        "codigo": "767"
+                    },
+                    {
+                        "ciudad": "San Pablo",
+                        "codigo": "768"
+                    },
+                    {
+                        "ciudad": "San Pedro De Cartago",
+                        "codigo": "769"
+                    },
+                    {
+                        "ciudad": "Santa Barbara",
+                        "codigo": "770"
+                    },
+                    {
+                        "ciudad": "Santacruz",
+                        "codigo": "771"
+                    },
+                    {
+                        "ciudad": "Sapuyes",
+                        "codigo": "772"
+                    },
+                    {
+                        "ciudad": "Taminango",
+                        "codigo": "773"
+                    },
+                    {
+                        "ciudad": "Tangua",
+                        "codigo": "774"
+                    },
+                    {
+                        "ciudad": "San Andres De Tumaco",
+                        "codigo": "775"
+                    },
+                    {
+                        "ciudad": "Tuquerres",
+                        "codigo": "776"
+                    },
+                    {
+                        "ciudad": "Yacuanquer",
+                        "codigo": "777"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "N. De Santander":[
+                    {
+                        "ciudad": "Cucuta",
+                        "codigo": "778"
+                    },
+                    {
+                        "ciudad": "Abrego",
+                        "codigo": "779"
+                    },
+                    {
+                        "ciudad": "Arboledas",
+                        "codigo": "780"
+                    },
+                    {
+                        "ciudad": "Bochalema",
+                        "codigo": "781"
+                    },
+                    {
+                        "ciudad": "Bucarasica",
+                        "codigo": "782"
+                    },
+                    {
+                        "ciudad": "Cacota",
+                        "codigo": "783"
+                    },
+                    {
+                        "ciudad": "Cachira",
+                        "codigo": "784"
+                    },
+                    {
+                        "ciudad": "Chinacota",
+                        "codigo": "785"
+                    },
+                    {
+                        "ciudad": "Chitaga",
+                        "codigo": "786"
+                    },
+                    {
+                        "ciudad": "Convencion",
+                        "codigo": "787"
+                    },
+                    {
+                        "ciudad": "Cucutilla",
+                        "codigo": "788"
+                    },
+                    {
+                        "ciudad": "Durania",
+                        "codigo": "789"
+                    },
+                    {
+                        "ciudad": "El Carmen",
+                        "codigo": "790"
+                    },
+                    {
+                        "ciudad": "El Tarra",
+                        "codigo": "791"
+                    },
+                    {
+                        "ciudad": "El Zulia",
+                        "codigo": "792"
+                    },
+                    {
+                        "ciudad": "Gramalote",
+                        "codigo": "793"
+                    },
+                    {
+                        "ciudad": "Hacari",
+                        "codigo": "794"
+                    },
+                    {
+                        "ciudad": "Herran",
+                        "codigo": "795"
+                    },
+                    {
+                        "ciudad": "Labateca",
+                        "codigo": "796"
+                    },
+                    {
+                        "ciudad": "La Esperanza",
+                        "codigo": "797"
+                    },
+                    {
+                        "ciudad": "La Playa",
+                        "codigo": "798"
+                    },
+                    {
+                        "ciudad": "Los Patios",
+                        "codigo": "799"
+                    },
+                    {
+                        "ciudad": "Lourdes",
+                        "codigo": "800"
+                    },
+                    {
+                        "ciudad": "Mutiscua",
+                        "codigo": "801"
+                    },
+                    {
+                        "ciudad": "Ocaña",
+                        "codigo": "802"
+                    },
+                    {
+                        "ciudad": "Pamplona",
+                        "codigo": "803"
+                    },
+                    {
+                        "ciudad": "Pamplonita",
+                        "codigo": "804"
+                    },
+                    {
+                        "ciudad": "Puerto Santander",
+                        "codigo": "805"
+                    },
+                    {
+                        "ciudad": "Ragonvalia",
+                        "codigo": "806"
+                    },
+                    {
+                        "ciudad": "Salazar",
+                        "codigo": "807"
+                    },
+                    {
+                        "ciudad": "San Calixto",
+                        "codigo": "808"
+                    },
+                    {
+                        "ciudad": "San Cayetano",
+                        "codigo": "809"
+                    },
+                    {
+                        "ciudad": "Santiago",
+                        "codigo": "810"
+                    },
+                    {
+                        "ciudad": "Sardinata",
+                        "codigo": "811"
+                    },
+                    {
+                        "ciudad": "Silos",
+                        "codigo": "812"
+                    },
+                    {
+                        "ciudad": "Teorama",
+                        "codigo": "813"
+                    },
+                    {
+                        "ciudad": "Tibu",
+                        "codigo": "814"
+                    },
+                    {
+                        "ciudad": "Toledo",
+                        "codigo": "815"
+                    },
+                    {
+                        "ciudad": "Villa Caro",
+                        "codigo": "816"
+                    },
+                    {
+                        "ciudad": "Villa Del Rosario",
+                        "codigo": "817"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Quindío":[
+                    {
+                        "ciudad": "Armenia",
+                        "codigo": "818"
+                    },
+                    {
+                        "ciudad": "Buenavista",
+                        "codigo": "819"
+                    },
+                    {
+                        "ciudad": "Calarca",
+                        "codigo": "820"
+                    },
+                    {
+                        "ciudad": "Circasia",
+                        "codigo": "821"
+                    },
+                    {
+                        "ciudad": "Cordoba",
+                        "codigo": "822"
+                    },
+                    {
+                        "ciudad": "Filandia",
+                        "codigo": "823"
+                    },
+                    {
+                        "ciudad": "Genova",
+                        "codigo": "824"
+                    },
+                    {
+                        "ciudad": "La Tebaida",
+                        "codigo": "825"
+                    },
+                    {
+                        "ciudad": "Montenegro",
+                        "codigo": "826"
+                    },
+                    {
+                        "ciudad": "Pijao",
+                        "codigo": "827"
+                    },
+                    {
+                        "ciudad": "Quimbaya",
+                        "codigo": "828"
+                    },
+                    {
+                        "ciudad": "Salento",
+                        "codigo": "829"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Risaralda":[
+                    {
+                        "ciudad": "Pereira",
+                        "codigo": "830"
+                    },
+                    {
+                        "ciudad": "Apia",
+                        "codigo": "831"
+                    },
+                    {
+                        "ciudad": "Balboa",
+                        "codigo": "832"
+                    },
+                    {
+                        "ciudad": "Belen De Umbria",
+                        "codigo": "833"
+                    },
+                    {
+                        "ciudad": "Dosquebradas",
+                        "codigo": "834"
+                    },
+                    {
+                        "ciudad": "Guatica",
+                        "codigo": "835"
+                    },
+                    {
+                        "ciudad": "La Celia",
+                        "codigo": "836"
+                    },
+                    {
+                        "ciudad": "La Virginia",
+                        "codigo": "837"
+                    },
+                    {
+                        "ciudad": "Marsella",
+                        "codigo": "838"
+                    },
+                    {
+                        "ciudad": "Mistrato",
+                        "codigo": "839"
+                    },
+                    {
+                        "ciudad": "Pueblo Rico",
+                        "codigo": "840"
+                    },
+                    {
+                        "ciudad": "Quinchia",
+                        "codigo": "841"
+                    },
+                    {
+                        "ciudad": "Santa Rosa De Cabal",
+                        "codigo": "842"
+                    },
+                    {
+                        "ciudad": "Santuario",
+                        "codigo": "843"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Santander":[
+                    {
+                        "ciudad": "Bucaramanga",
+                        "codigo": "844"
+                    },
+                    {
+                        "ciudad": "Aguada",
+                        "codigo": "845"
+                    },
+                    {
+                        "ciudad": "Albania",
+                        "codigo": "846"
+                    },
+                    {
+                        "ciudad": "Aratoca",
+                        "codigo": "847"
+                    },
+                    {
+                        "ciudad": "Barbosa",
+                        "codigo": "848"
+                    },
+                    {
+                        "ciudad": "Barichara",
+                        "codigo": "849"
+                    },
+                    {
+                        "ciudad": "Barrancabermeja",
+                        "codigo": "850"
+                    },
+                    {
+                        "ciudad": "Betulia",
+                        "codigo": "851"
+                    },
+                    {
+                        "ciudad": "Bolivar",
+                        "codigo": "852"
+                    },
+                    {
+                        "ciudad": "Cabrera",
+                        "codigo": "853"
+                    },
+                    {
+                        "ciudad": "California",
+                        "codigo": "854"
+                    },
+                    {
+                        "ciudad": "Capitanejo",
+                        "codigo": "855"
+                    },
+                    {
+                        "ciudad": "Carcasi",
+                        "codigo": "856"
+                    },
+                    {
+                        "ciudad": "Cepita",
+                        "codigo": "857"
+                    },
+                    {
+                        "ciudad": "Cerrito",
+                        "codigo": "858"
+                    },
+                    {
+                        "ciudad": "Charala",
+                        "codigo": "859"
+                    },
+                    {
+                        "ciudad": "Charta",
+                        "codigo": "860"
+                    },
+                    {
+                        "ciudad": "Chima",
+                        "codigo": "861"
+                    },
+                    {
+                        "ciudad": "Chipata",
+                        "codigo": "862"
+                    },
+                    {
+                        "ciudad": "Cimitarra",
+                        "codigo": "863"
+                    },
+                    {
+                        "ciudad": "Concepcion",
+                        "codigo": "864"
+                    },
+                    {
+                        "ciudad": "Confines",
+                        "codigo": "865"
+                    },
+                    {
+                        "ciudad": "Contratacion",
+                        "codigo": "866"
+                    },
+                    {
+                        "ciudad": "Coromoro",
+                        "codigo": "867"
+                    },
+                    {
+                        "ciudad": "Curiti",
+                        "codigo": "868"
+                    },
+                    {
+                        "ciudad": "El Carmen De Chucuri",
+                        "codigo": "869"
+                    },
+                    {
+                        "ciudad": "El Guacamayo",
+                        "codigo": "870"
+                    },
+                    {
+                        "ciudad": "El Peñon",
+                        "codigo": "871"
+                    },
+                    {
+                        "ciudad": "El Playon",
+                        "codigo": "872"
+                    },
+                    {
+                        "ciudad": "Encino",
+                        "codigo": "873"
+                    },
+                    {
+                        "ciudad": "Enciso",
+                        "codigo": "874"
+                    },
+                    {
+                        "ciudad": "Florian",
+                        "codigo": "875"
+                    },
+                    {
+                        "ciudad": "Floridablanca",
+                        "codigo": "876"
+                    },
+                    {
+                        "ciudad": "Galan",
+                        "codigo": "877"
+                    },
+                    {
+                        "ciudad": "Gambita",
+                        "codigo": "878"
+                    },
+                    {
+                        "ciudad": "Giron",
+                        "codigo": "879"
+                    },
+                    {
+                        "ciudad": "Guaca",
+                        "codigo": "880"
+                    },
+                    {
+                        "ciudad": "Guadalupe",
+                        "codigo": "881"
+                    },
+                    {
+                        "ciudad": "Guapota",
+                        "codigo": "882"
+                    },
+                    {
+                        "ciudad": "Guavata",
+                        "codigo": "883"
+                    },
+                    {
+                        "ciudad": "Gsepsa",
+                        "codigo": "884"
+                    },
+                    {
+                        "ciudad": "Hato",
+                        "codigo": "885"
+                    },
+                    {
+                        "ciudad": "Jesus Maria",
+                        "codigo": "886"
+                    },
+                    {
+                        "ciudad": "Jordan",
+                        "codigo": "887"
+                    },
+                    {
+                        "ciudad": "La Belleza",
+                        "codigo": "888"
+                    },
+                    {
+                        "ciudad": "Landazuri",
+                        "codigo": "889"
+                    },
+                    {
+                        "ciudad": "La Paz",
+                        "codigo": "890"
+                    },
+                    {
+                        "ciudad": "Lebrija",
+                        "codigo": "891"
+                    },
+                    {
+                        "ciudad": "Los Santos",
+                        "codigo": "892"
+                    },
+                    {
+                        "ciudad": "Macaravita",
+                        "codigo": "893"
+                    },
+                    {
+                        "ciudad": "Malaga",
+                        "codigo": "894"
+                    },
+                    {
+                        "ciudad": "Matanza",
+                        "codigo": "895"
+                    },
+                    {
+                        "ciudad": "Mogotes",
+                        "codigo": "896"
+                    },
+                    {
+                        "ciudad": "Molagavita",
+                        "codigo": "897"
+                    },
+                    {
+                        "ciudad": "Ocamonte",
+                        "codigo": "898"
+                    },
+                    {
+                        "ciudad": "Oiba",
+                        "codigo": "899"
+                    },
+                    {
+                        "ciudad": "Onzaga",
+                        "codigo": "900"
+                    },
+                    {
+                        "ciudad": "Palmar",
+                        "codigo": "901"
+                    },
+                    {
+                        "ciudad": "Palmas Del Socorro",
+                        "codigo": "902"
+                    },
+                    {
+                        "ciudad": "Paramo",
+                        "codigo": "903"
+                    },
+                    {
+                        "ciudad": "Piedecuesta",
+                        "codigo": "904"
+                    },
+                    {
+                        "ciudad": "Pinchote",
+                        "codigo": "905"
+                    },
+                    {
+                        "ciudad": "Puente Nacional",
+                        "codigo": "906"
+                    },
+                    {
+                        "ciudad": "Puerto Parra",
+                        "codigo": "907"
+                    },
+                    {
+                        "ciudad": "Puerto Wilches",
+                        "codigo": "908"
+                    },
+                    {
+                        "ciudad": "Rionegro",
+                        "codigo": "909"
+                    },
+                    {
+                        "ciudad": "Sabana De Torres",
+                        "codigo": "910"
+                    },
+                    {
+                        "ciudad": "San Andres",
+                        "codigo": "911"
+                    },
+                    {
+                        "ciudad": "San Benito",
+                        "codigo": "912"
+                    },
+                    {
+                        "ciudad": "San Gil",
+                        "codigo": "913"
+                    },
+                    {
+                        "ciudad": "San Joaquin",
+                        "codigo": "914"
+                    },
+                    {
+                        "ciudad": "San Jose De Miranda",
+                        "codigo": "915"
+                    },
+                    {
+                        "ciudad": "San Miguel",
+                        "codigo": "916"
+                    },
+                    {
+                        "ciudad": "San Vicente De Chucuri",
+                        "codigo": "917"
+                    },
+                    {
+                        "ciudad": "Santa Barbara",
+                        "codigo": "918"
+                    },
+                    {
+                        "ciudad": "Santa Helena Del Opon",
+                        "codigo": "919"
+                    },
+                    {
+                        "ciudad": "Simacota",
+                        "codigo": "920"
+                    },
+                    {
+                        "ciudad": "Socorro",
+                        "codigo": "921"
+                    },
+                    {
+                        "ciudad": "Suaita",
+                        "codigo": "922"
+                    },
+                    {
+                        "ciudad": "Sucre",
+                        "codigo": "923"
+                    },
+                    {
+                        "ciudad": "Surata",
+                        "codigo": "924"
+                    },
+                    {
+                        "ciudad": "Tona",
+                        "codigo": "925"
+                    },
+                    {
+                        "ciudad": "Valle De San Jose",
+                        "codigo": "926"
+                    },
+                    {
+                        "ciudad": "Velez",
+                        "codigo": "927"
+                    },
+                    {
+                        "ciudad": "Vetas",
+                        "codigo": "928"
+                    },
+                    {
+                        "ciudad": "Villanueva",
+                        "codigo": "929"
+                    },
+                    {
+                        "ciudad": "Zapatoca",
+                        "codigo": "930"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Sucre":[
+                    {
+                        "ciudad": "Sincelejo",
+                        "codigo": "931"
+                    },
+                    {
+                        "ciudad": "Buenavista",
+                        "codigo": "932"
+                    },
+                    {
+                        "ciudad": "Caimito",
+                        "codigo": "933"
+                    },
+                    {
+                        "ciudad": "Coloso",
+                        "codigo": "934"
+                    },
+                    {
+                        "ciudad": "Corozal",
+                        "codigo": "935"
+                    },
+                    {
+                        "ciudad": "Coveñas",
+                        "codigo": "936"
+                    },
+                    {
+                        "ciudad": "Chalan",
+                        "codigo": "937"
+                    },
+                    {
+                        "ciudad": "El Roble",
+                        "codigo": "938"
+                    },
+                    {
+                        "ciudad": "Galeras",
+                        "codigo": "939"
+                    },
+                    {
+                        "ciudad": "Guaranda",
+                        "codigo": "940"
+                    },
+                    {
+                        "ciudad": "La Union",
+                        "codigo": "941"
+                    },
+                    {
+                        "ciudad": "Los Palmitos",
+                        "codigo": "942"
+                    },
+                    {
+                        "ciudad": "Majagual",
+                        "codigo": "943"
+                    },
+                    {
+                        "ciudad": "Morroa",
+                        "codigo": "944"
+                    },
+                    {
+                        "ciudad": "Ovejas",
+                        "codigo": "945"
+                    },
+                    {
+                        "ciudad": "Palmito",
+                        "codigo": "946"
+                    },
+                    {
+                        "ciudad": "Sampues",
+                        "codigo": "947"
+                    },
+                    {
+                        "ciudad": "San Benito Abad",
+                        "codigo": "948"
+                    },
+                    {
+                        "ciudad": "San Juan De Betulia",
+                        "codigo": "949"
+                    },
+                    {
+                        "ciudad": "San Marcos",
+                        "codigo": "950"
+                    },
+                    {
+                        "ciudad": "San Onofre",
+                        "codigo": "951"
+                    },
+                    {
+                        "ciudad": "San Pedro",
+                        "codigo": "952"
+                    },
+                    {
+                        "ciudad": "San Luis De Since",
+                        "codigo": "953"
+                    },
+                    {
+                        "ciudad": "Sucre",
+                        "codigo": "954"
+                    },
+                    {
+                        "ciudad": "Santiago De Tolu",
+                        "codigo": "955"
+                    },
+                    {
+                        "ciudad": "Tolu Viejo",
+                        "codigo": "956"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Tolima":[
+                    {
+                        "ciudad": "Ibague",
+                        "codigo": "957"
+                    },
+                    {
+                        "ciudad": "Alpujarra",
+                        "codigo": "958"
+                    },
+                    {
+                        "ciudad": "Alvarado",
+                        "codigo": "959"
+                    },
+                    {
+                        "ciudad": "Ambalema",
+                        "codigo": "960"
+                    },
+                    {
+                        "ciudad": "Anzoategui",
+                        "codigo": "961"
+                    },
+                    {
+                        "ciudad": "Armero",
+                        "codigo": "962"
+                    },
+                    {
+                        "ciudad": "Ataco",
+                        "codigo": "963"
+                    },
+                    {
+                        "ciudad": "Cajamarca",
+                        "codigo": "964"
+                    },
+                    {
+                        "ciudad": "Carmen De Apicala",
+                        "codigo": "965"
+                    },
+                    {
+                        "ciudad": "Casabianca",
+                        "codigo": "966"
+                    },
+                    {
+                        "ciudad": "Chaparral",
+                        "codigo": "967"
+                    },
+                    {
+                        "ciudad": "Coello",
+                        "codigo": "968"
+                    },
+                    {
+                        "ciudad": "Coyaima",
+                        "codigo": "969"
+                    },
+                    {
+                        "ciudad": "Cunday",
+                        "codigo": "970"
+                    },
+                    {
+                        "ciudad": "Dolores",
+                        "codigo": "971"
+                    },
+                    {
+                        "ciudad": "Espinal",
+                        "codigo": "972"
+                    },
+                    {
+                        "ciudad": "Falan",
+                        "codigo": "973"
+                    },
+                    {
+                        "ciudad": "Flandes",
+                        "codigo": "974"
+                    },
+                    {
+                        "ciudad": "Fresno",
+                        "codigo": "975"
+                    },
+                    {
+                        "ciudad": "Guamo",
+                        "codigo": "976"
+                    },
+                    {
+                        "ciudad": "Herveo",
+                        "codigo": "977"
+                    },
+                    {
+                        "ciudad": "Honda",
+                        "codigo": "978"
+                    },
+                    {
+                        "ciudad": "Icononzo",
+                        "codigo": "979"
+                    },
+                    {
+                        "ciudad": "Lerida",
+                        "codigo": "980"
+                    },
+                    {
+                        "ciudad": "Libano",
+                        "codigo": "981"
+                    },
+                    {
+                        "ciudad": "Mariquita",
+                        "codigo": "982"
+                    },
+                    {
+                        "ciudad": "Melgar",
+                        "codigo": "983"
+                    },
+                    {
+                        "ciudad": "Murillo",
+                        "codigo": "984"
+                    },
+                    {
+                        "ciudad": "Natagaima",
+                        "codigo": "985"
+                    },
+                    {
+                        "ciudad": "Ortega",
+                        "codigo": "986"
+                    },
+                    {
+                        "ciudad": "Palocabildo",
+                        "codigo": "987"
+                    },
+                    {
+                        "ciudad": "Piedras",
+                        "codigo": "988"
+                    },
+                    {
+                        "ciudad": "Planadas",
+                        "codigo": "989"
+                    },
+                    {
+                        "ciudad": "Prado",
+                        "codigo": "990"
+                    },
+                    {
+                        "ciudad": "Purificacion",
+                        "codigo": "991"
+                    },
+                    {
+                        "ciudad": "Rioblanco",
+                        "codigo": "992"
+                    },
+                    {
+                        "ciudad": "Roncesvalles",
+                        "codigo": "993"
+                    },
+                    {
+                        "ciudad": "Rovira",
+                        "codigo": "994"
+                    },
+                    {
+                        "ciudad": "Saldaña",
+                        "codigo": "995"
+                    },
+                    {
+                        "ciudad": "San Antonio",
+                        "codigo": "996"
+                    },
+                    {
+                        "ciudad": "San Luis",
+                        "codigo": "997"
+                    },
+                    {
+                        "ciudad": "Santa Isabel",
+                        "codigo": "998"
+                    },
+                    {
+                        "ciudad": "Suarez",
+                        "codigo": "999"
+                    },
+                    {
+                        "ciudad": "Valle De San Juan",
+                        "codigo": "1000"
+                    },
+                    {
+                        "ciudad": "Venadillo",
+                        "codigo": "1001"
+                    },
+                    {
+                        "ciudad": "Villahermosa",
+                        "codigo": "1002"
+                    },
+                    {
+                        "ciudad": "Villarrica",
+                        "codigo": "1003"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Valle Del Cauca":[
+                    {
+                        "ciudad": "Cali",
+                        "codigo": "1004"
+                    },
+                    {
+                        "ciudad": "Alcala",
+                        "codigo": "1005"
+                    },
+                    {
+                        "ciudad": "Andalucia",
+                        "codigo": "1006"
+                    },
+                    {
+                        "ciudad": "Ansermanuevo",
+                        "codigo": "1007"
+                    },
+                    {
+                        "ciudad": "Argelia",
+                        "codigo": "1008"
+                    },
+                    {
+                        "ciudad": "Bolivar",
+                        "codigo": "1009"
+                    },
+                    {
+                        "ciudad": "Buenaventura",
+                        "codigo": "1010"
+                    },
+                    {
+                        "ciudad": "Guadalajara De Buga",
+                        "codigo": "1011"
+                    },
+                    {
+                        "ciudad": "Bugalagrande",
+                        "codigo": "1012"
+                    },
+                    {
+                        "ciudad": "Caicedonia",
+                        "codigo": "1013"
+                    },
+                    {
+                        "ciudad": "Calima",
+                        "codigo": "1014"
+                    },
+                    {
+                        "ciudad": "Candelaria",
+                        "codigo": "1015"
+                    },
+                    {
+                        "ciudad": "Cartago",
+                        "codigo": "1016"
+                    },
+                    {
+                        "ciudad": "Dagua",
+                        "codigo": "1017"
+                    },
+                    {
+                        "ciudad": "El Aguila",
+                        "codigo": "1018"
+                    },
+                    {
+                        "ciudad": "El Cairo",
+                        "codigo": "1019"
+                    },
+                    {
+                        "ciudad": "El Cerrito",
+                        "codigo": "1020"
+                    },
+                    {
+                        "ciudad": "El Dovio",
+                        "codigo": "1021"
+                    },
+                    {
+                        "ciudad": "Florida",
+                        "codigo": "1022"
+                    },
+                    {
+                        "ciudad": "Ginebra",
+                        "codigo": "1023"
+                    },
+                    {
+                        "ciudad": "Guacari",
+                        "codigo": "1024"
+                    },
+                    {
+                        "ciudad": "Jamundi",
+                        "codigo": "1025"
+                    },
+                    {
+                        "ciudad": "La Cumbre",
+                        "codigo": "1026"
+                    },
+                    {
+                        "ciudad": "La Union",
+                        "codigo": "1027"
+                    },
+                    {
+                        "ciudad": "La Victoria",
+                        "codigo": "1028"
+                    },
+                    {
+                        "ciudad": "Obando",
+                        "codigo": "1029"
+                    },
+                    {
+                        "ciudad": "Palmira",
+                        "codigo": "1030"
+                    },
+                    {
+                        "ciudad": "Pradera",
+                        "codigo": "1031"
+                    },
+                    {
+                        "ciudad": "Restrepo",
+                        "codigo": "1032"
+                    },
+                    {
+                        "ciudad": "Riofrio",
+                        "codigo": "1033"
+                    },
+                    {
+                        "ciudad": "Roldanillo",
+                        "codigo": "1034"
+                    },
+                    {
+                        "ciudad": "San Pedro",
+                        "codigo": "1035"
+                    },
+                    {
+                        "ciudad": "Sevilla",
+                        "codigo": "1036"
+                    },
+                    {
+                        "ciudad": "Toro",
+                        "codigo": "1037"
+                    },
+                    {
+                        "ciudad": "Trujillo",
+                        "codigo": "1038"
+                    },
+                    {
+                        "ciudad": "Tulua",
+                        "codigo": "1039"
+                    },
+                    {
+                        "ciudad": "Ulloa",
+                        "codigo": "1040"
+                    },
+                    {
+                        "ciudad": "Versalles",
+                        "codigo": "1041"
+                    },
+                    {
+                        "ciudad": "Vijes",
+                        "codigo": "1042"
+                    },
+                    {
+                        "ciudad": "Yotoco",
+                        "codigo": "1043"
+                    },
+                    {
+                        "ciudad": "Yumbo",
+                        "codigo": "1044"
+                    },
+                    {
+                        "ciudad": "Zarzal",
+                        "codigo": "1045"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Arauca":[
+                    {
+                        "ciudad": "Arauca",
+                        "codigo": "1046"
+                    },
+                    {
+                        "ciudad": "Arauquita",
+                        "codigo": "1047"
+                    },
+                    {
+                        "ciudad": "Cravo Norte",
+                        "codigo": "1048"
+                    },
+                    {
+                        "ciudad": "Fortul",
+                        "codigo": "1049"
+                    },
+                    {
+                        "ciudad": "Puerto Rondon",
+                        "codigo": "1050"
+                    },
+                    {
+                        "ciudad": "Saravena",
+                        "codigo": "1051"
+                    },
+                    {
+                        "ciudad": "Tame",
+                        "codigo": "1052"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Casanare":[
+                    {
+                        "ciudad": "Yopal",
+                        "codigo": "1053"
+                    },
+                    {
+                        "ciudad": "Aguazul",
+                        "codigo": "1054"
+                    },
+                    {
+                        "ciudad": "Chameza",
+                        "codigo": "1055"
+                    },
+                    {
+                        "ciudad": "Hato Corozal",
+                        "codigo": "1056"
+                    },
+                    {
+                        "ciudad": "La Salina",
+                        "codigo": "1057"
+                    },
+                    {
+                        "ciudad": "Mani",
+                        "codigo": "1058"
+                    },
+                    {
+                        "ciudad": "Monterrey",
+                        "codigo": "1059"
+                    },
+                    {
+                        "ciudad": "Nunchia",
+                        "codigo": "1060"
+                    },
+                    {
+                        "ciudad": "Orocue",
+                        "codigo": "1061"
+                    },
+                    {
+                        "ciudad": "Paz De Ariporo",
+                        "codigo": "1062"
+                    },
+                    {
+                        "ciudad": "Pore",
+                        "codigo": "1063"
+                    },
+                    {
+                        "ciudad": "Recetor",
+                        "codigo": "1064"
+                    },
+                    {
+                        "ciudad": "Sabanalarga",
+                        "codigo": "1065"
+                    },
+                    {
+                        "ciudad": "Sacama",
+                        "codigo": "1066"
+                    },
+                    {
+                        "ciudad": "San Luis De Palenque",
+                        "codigo": "1067"
+                    },
+                    {
+                        "ciudad": "Tamara",
+                        "codigo": "1068"
+                    },
+                    {
+                        "ciudad": "Tauramena",
+                        "codigo": "1069"
+                    },
+                    {
+                        "ciudad": "Trinidad",
+                        "codigo": "1070"
+                    },
+                    {
+                        "ciudad": "Villanueva",
+                        "codigo": "1071"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Putumayo":[
+                    {
+                        "ciudad": "Mocoa",
+                        "codigo": "1072"
+                    },
+                    {
+                        "ciudad": "Colon",
+                        "codigo": "1073"
+                    },
+                    {
+                        "ciudad": "Orito",
+                        "codigo": "1074"
+                    },
+                    {
+                        "ciudad": "Puerto Asis",
+                        "codigo": "1075"
+                    },
+                    {
+                        "ciudad": "Puerto Caicedo",
+                        "codigo": "1076"
+                    },
+                    {
+                        "ciudad": "Puerto Guzman",
+                        "codigo": "1077"
+                    },
+                    {
+                        "ciudad": "Leguizamo",
+                        "codigo": "1078"
+                    },
+                    {
+                        "ciudad": "Sibundoy",
+                        "codigo": "1079"
+                    },
+                    {
+                        "ciudad": "San Francisco",
+                        "codigo": "1080"
+                    },
+                    {
+                        "ciudad": "San Miguel",
+                        "codigo": "1081"
+                    },
+                    {
+                        "ciudad": "Santiago",
+                        "codigo": "1082"
+                    },
+                    {
+                        "ciudad": "Valle Del Guamuez",
+                        "codigo": "1083"
+                    },
+                    {
+                        "ciudad": "Villagarzon",
+                        "codigo": "1084"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "San Andrés":[
+                    {
+                        "ciudad": "San Andres",
+                        "codigo": "1085"
+                    },
+                    {
+                        "ciudad": "Providencia",
+                        "codigo": "1086"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Amazonas":[
+                    {
+                        "ciudad": "Leticia",
+                        "codigo": "1087"
+                    },
+                    {
+                        "ciudad": "El Encanto",
+                        "codigo": "1088"
+                    },
+                    {
+                        "ciudad": "La Chorrera",
+                        "codigo": "1089"
+                    },
+                    {
+                        "ciudad": "La Pedrera",
+                        "codigo": "1090"
+                    },
+                    {
+                        "ciudad": "La Victoria",
+                        "codigo": "1091"
+                    },
+                    {
+                        "ciudad": "Miriti - Parana",
+                        "codigo": "1092"
+                    },
+                    {
+                        "ciudad": "Puerto Alegria",
+                        "codigo": "1093"
+                    },
+                    {
+                        "ciudad": "Puerto Arica",
+                        "codigo": "1094"
+                    },
+                    {
+                        "ciudad": "Puerto Nariño",
+                        "codigo": "1095"
+                    },
+                    {
+                        "ciudad": "Puerto Santander",
+                        "codigo": "1096"
+                    },
+                    {
+                        "ciudad": "Tarapaca",
+                        "codigo": "1097"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{
+                "Guainía":[
+                    {
+                        "ciudad": "Inirida",
+                        "codigo": "1098"
+                    },
+                    {
+                        "ciudad": "Barranco Minas",
+                        "codigo": "1099"
+                    },
+                    {
+                        "ciudad": "Mapiripana",
+                        "codigo": "1100"
+                    },
+                    {
+                        "ciudad": "San Felipe",
+                        "codigo": "1101"
+                    },
+                    {
+                        "ciudad": "Puerto Colombia",
+                        "codigo": "1102"
+                    },
+                    {
+                        "ciudad": "La Guadalupe",
+                        "codigo": "1103"
+                    },
+                    {
+                        "ciudad": "Cacahual",
+                        "codigo": "1104"
+                    },
+                    {
+                        "ciudad": "Pana Pana",
+                        "codigo": "1105"
+                    },
+                    {
+                        "ciudad": "Morichal",
+                        "codigo": "1106"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Guaviare":[
+                    {
+                        "ciudad": "San Jose Del Guaviare",
+                        "codigo": "1107"
+                    },
+                    {
+                        "ciudad": "Calamar",
+                        "codigo": "1108"
+                    },
+                    {
+                        "ciudad": "El Retorno",
+                        "codigo": "1109"
+                    },
+                    {
+                        "ciudad": "Miraflores",
+                        "codigo": "1110"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Vaupés":[
+                    {
+                        "ciudad": "Mitu",
+                        "codigo": "1111"
+                    },
+                    {
+                        "ciudad": "Caruru",
+                        "codigo": "1112"
+                    },
+                    {
+                        "ciudad": "Pacoa",
+                        "codigo": "1113"
+                    },
+                    {
+                        "ciudad": "Taraira",
+                        "codigo": "1114"
+                    },
+                    {
+                        "ciudad": "Papunaua",
+                        "codigo": "1115"
+                    },
+                    {
+                        "ciudad": "Yavarate",
+                        "codigo": "1116"
+                    }
+                ]
+            }
+        },
+        {
+            "depto":{ 
+                "Vichada":[
+                    {
+                        "ciudad": "Puerto Carreño",
+                        "codigo": "1117"
+                    },
+                    {
+                        "ciudad": "La Primavera",
+                        "codigo": "1118"
+                    },
+                    {
+                        "ciudad": "Santa Rosalia",
+                        "codigo": "1119"
+                    },
+                    {
+                        "ciudad": "Cumaribo",
+                        "codigo": "1120"
+                    }
+                ]
+            }
+        }
+    ]
+}

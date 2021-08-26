@@ -1,0 +1,30 @@
+
+.texto{
+    display: block;
+    opacity: 0;
+    animation-name: animacion;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+@keyframes animacion{
+    0%{
+        opacity: 0;
+        filter: blur(10px);
+    }
+    25%{
+        opacity: 1;
+        filter: blur(0);
+    }
+    75%{
+        opacity: 1;
+        filter: blur(0);
+    }
+    100%{
+        opacity: 0;
+        filter: blur(10px);
+    }
+}

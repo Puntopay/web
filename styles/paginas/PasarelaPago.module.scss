@@ -1,0 +1,27 @@
+@use '../basics/colores' as *;
+
+.requisitos_panel{
+    background: rgba(31,187,155,1);
+    background:  url(/images/nube-visa.svg), linear-gradient(97deg, $color-1 0%, $color-2 50%, $color-3 100%);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40%, 100%;
+}
+.requisitos_text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    h2{
+        margin: 0;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+}
+.requisitos_botones_container{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}

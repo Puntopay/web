@@ -1,0 +1,36 @@
+@use '../basics/colores' as *;
+
+.link_paso_1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+    .lista_ordenada{
+        li{
+            &::before{
+                background-color: $color-1;
+            }
+        }
+    }
+}
+.link_paso_2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    .lista_ordenada{
+        margin-bottom: 2rem;
+
+        li{
+            &::before{
+                background-color: $color-1;
+            }
+        }
+    }
+}
+
+.link_image_container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

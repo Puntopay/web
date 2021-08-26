@@ -1,0 +1,130 @@
+@use '../basics/colores' as *;
+
+.listado_productos{
+    h2{
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+}
+.producto{
+    
+    svg{
+        display: block;
+        margin: auto;
+        max-height: 120px;
+        width: auto;
+    }
+
+    p{
+        font-weight: 700;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+.tienda_texto{
+    h2{
+        color: $color-4;
+    }
+    p{
+        color: #FFF;
+    }
+    .btn{
+        display: block;
+        margin: 3rem auto 0;
+    }
+}
+
+.link_de_pago{    
+    h2, h3{
+        color: $color-5;
+    }
+}
+.link_pago_lista{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li{
+        align-items: flex-start;
+        counter-increment: li;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 1rem 0;
+
+        &::before{
+            align-items: center;
+            background-color: $color-5;
+            border-radius: 50%;
+            color: #FFF;
+            display: flex;
+            font-size: 1rem;
+            height: 30px;
+            justify-content: center;
+            margin-right: .5rem;
+            content: counter(li);
+            width: 30px;
+        }
+    }
+}
+.link_de_pago_image{
+    .btn{
+        display: block;
+        margin: 2rem auto 0;
+    }
+}
+.link_pago_image_wrap{
+    position: relative;
+
+    div:first-of-type{
+        height: 80%;
+    }
+}
+.pasarela_de_pago{
+    h2{
+        color: $color-6;
+    }
+}
+.pasarela_btn_col{
+    padding: 2rem 0 0;
+    
+    .btn{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.datafono{
+    background: rgba(31,187,155,1);
+    background:  url(/images/nube-visa.svg), linear-gradient(97deg, $color-1 0%, $color-2 50%, $color-3 100%);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40%, 100%;
+}
+.datafono_texto{
+    p, ul{
+        color: #FFF;
+    }
+    .btn{
+        display: block;
+        margin: 1.5rem 0;
+    }
+}
+
+.app_stores{
+    padding: 8rem 0;
+    
+    h2{
+        color: $color-5;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+.app_stores_btn_container{
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 60%;
+}

@@ -1,0 +1,350 @@
+@use '../basics/colores' as *;
+
+//********************************************** Anchos
+
+.ancho-40{
+    width: 40%;
+}
+.ancho-50{
+    width: 50%;
+}
+.ancho-60{
+    width: 60%;
+}
+.ancho-70{
+    width: 70%;
+}
+.ancho-80{
+    width: 80%;
+}
+
+//********************************************** Altos
+
+.full-size{
+    height: 100vh;
+}
+
+//********************************************** Banner
+
+.banner_home{
+    position: relative;
+}
+.banner_image_container{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.banner_text_container{
+    height: 100vh;
+    left:0;
+    margin: auto;
+    width: 80%;
+    right: 0;
+    position: absolute;
+}
+.banner_text_wrap{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+
+    h2, h3{
+        font-size: 2.8rem;
+        line-height: 140%;
+    }
+}
+.banner_visa_pse{
+    padding: 1rem 0;
+}
+
+//********************************************** Fondos
+
+.bg-gradient-mav{
+    background: rgb(234,181,247);
+    background: linear-gradient(97deg, $color-3 0%, $color-2 50%, $color-1 100%);
+}
+.bg-gradient-vam{
+    background: rgba(31,187,155,1);
+    background: linear-gradient(97deg, $color-1 0%, $color-2 50%, $color-3 100%);
+}
+.bg-gray{
+    background-color: $color-7;
+}
+
+//********************************************** Botones
+.btn{
+    border-radius: 12px;
+    box-shadow: 6px 6px 0 rgba(0,0,0,.3);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: .8rem 2rem;
+    width: fit-content;
+
+    &-amarillo{
+        background-color: $color-4;
+    }
+    &-blanco{
+        background-color: #FFF;
+    }
+    &-verde{
+        background-color: $color-1;
+        color: #FFF;
+    }
+}
+.btn-form{
+    background-color: $color-1;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+//********************************************** Alineacion
+.center{
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+//********************************************** Columnas y grids
+
+.column-container{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 2rem;
+}
+
+.has-2-cols{
+    .column{
+        width: 50%;
+    }
+    .grid-column{
+        width: calc(50% - 1rem);
+    }
+}
+.has-3-cols{
+    .column{
+        width: 33.3333%;
+    }
+    .grid-column{
+        width: calc(33.3333% - 1rem);
+    }
+}
+.has-4-cols{
+    .column{
+        width: 25%;
+    }
+    .grid-column{
+        width: calc(25% - 1rem);
+    }
+}
+.has-5-cols{
+    .column{
+        width: 20%;
+    }
+}
+
+.grid-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+//********************************************** Listas
+.check-list{
+
+}
+.check-list-title{
+    color: $color-4 !important;
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 110%;
+    margin-bottom: .5rem;
+
+    strong{
+        margin-left: .8rem;
+        flex: 1;
+    }
+
+    svg{
+        fill: $color-4;
+        flex-basis: 20px;
+        height: 20px;
+        width: auto;
+    }
+}
+.check-list-text{
+    margin-top: 0;
+    padding-left: calc(20px + .8rem);
+}
+
+.lista-ordenada{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li{
+        align-items: flex-start;
+        counter-increment: li;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 1rem 0;
+        padding-left: calc( 26px + .5rem );
+        position: relative;
+
+        &::before{
+            align-items: center;
+            background-color: $color-5;
+            border-radius: 50%;
+            color: #FFF;
+            display: flex;
+            font-size: .8rem;
+            height: 26px;
+            justify-content: center;
+            left: 0;
+            margin-right: .5rem;
+            margin-top: 2px;
+            content: counter(li);
+            position: absolute;
+            width: 26px;
+        }
+    }
+}
+
+//********************************************** Fuentes
+
+.font-color-aguamarina{
+    color: $color-1;
+}
+.font-color-amarillo{
+    color: $color-4;
+}
+.font-color-blanco{
+    color: #FFF;
+}
+.font-color-magenta{
+    color: $color-5;
+}
+.font-color-deep-blue{
+    color: $color-6;
+}
+.small-font{
+    font-size: .8rem;
+}
+.big-fonts{
+    font-size: 1.8rem;
+}
+
+//********************************************** Bloques
+
+.acordeon{
+    list-style: none;
+    margin: 0;
+    padding: 2rem 0 0;
+
+    li{
+        border-bottom: solid 1px #000;
+        padding-top: 1rem;
+    }
+
+    label{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-bottom: none;
+        transition: all .6s ease-in-out;
+
+        &::after{
+            align-items: center;
+            background-color: $color-1;
+            border-radius: 50%;
+            color: #FFF;
+            content: "+";
+            display: flex;
+            height: 32px;
+            justify-content: center;
+            width: 32px;
+        }
+
+        &:hover{
+            background: $color-1;
+            color: #FFF;
+        }
+
+        &.last{
+            border-bottom: 1px solid #fff;
+        }
+    }
+
+    .acordeon-content{
+        padding: 1rem;
+    }
+
+    input[type="checkbox"]{
+        position: absolute;
+        left: -9999px;
+    }
+      
+    input[type="checkbox"] ~ .acordeon-content{
+        height: 0;
+        transform: scaleY(0);
+        padding: 0 1rem;
+    }
+
+    input[type="checkbox"]:checked ~ .acordeon-content{
+        height: 100%;
+        transform-origin: top;
+        transition: transform .2s ease-out;
+        transform: scaleY(1); 
+    }
+      
+    input[type="checkbox"]:checked + label{
+        background: $color-1;
+        color: #FFF;
+        border-bottom: 1px solid #fff;
+    }
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.panel{
+    padding: 6rem 0;
+}
+.site-inner-wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+
+//********************************************** Formularios
+
+.puntopay-item-container{
+    padding: .5rem;
+}
+.input{
+    border: solid 1px #333;
+    padding: 1rem;
+    width: 100%;
+}
+.select{
+    padding: 1rem;
+    width: 100%;
+}
+.form-error{
+    color: red;
+    font-size: .8rem;
+    margin: 5px 0 0
+}

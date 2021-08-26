@@ -1,0 +1,77 @@
+@use '../basics/colores' as *;
+
+.caracteristicas{
+    h2{
+        margin: 3rem auto;
+        max-width: 50%;
+        text-align: center;
+    }
+}
+.carac_item{
+    svg{
+        display: block;
+        height: auto;
+        margin: auto;
+        width: 80px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    &.carac_dominio{
+        svg{
+            width: 60px;
+        }
+    }
+}
+.envios_panel{
+    .envios_list{
+        svg{
+            fill: $color-5;
+        }
+        strong{
+            color: $color-5;
+        }
+    }
+}
+.envios_text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.promociones_text{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.costos_panel{
+
+}
+.costos_tabla{
+    background-color: #FFF;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    padding: 2rem 0;
+    width: 50%;
+}
+.costos_item{
+    border-left: solid 1px #000;
+    width: 33.3333%;
+
+    &:first-of-type{
+        border: none;
+    }
+
+    p{
+        font-size: .8rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .costo{
+        color: $color-5;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
