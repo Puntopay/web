@@ -14,10 +14,14 @@ import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
 import MonitorearEnvios from '../public/images/monitorea-envios.svg'
 import Promociones from '../public/images/ofertas-promociones-tv.svg'
 
+import FormTienda from '../components/TiendaVirtualForm';
+
 import styles from '../styles/paginas/TiendaVirtual.module.scss'
 
 const TiendaVirtual = () => {
 
+    
+    
     return(
         <>
             <Head>
@@ -181,6 +185,9 @@ const TiendaVirtual = () => {
                 </div>
                 <div id="tienda-virtual-form" className="panel">
                     <h2 className="font-color-magenta text-center">Regístrate para activar tu tienda</h2>
+                    <div className={ styles.form_tienda_container }>
+                        <FormTienda />
+                    </div>
                 </div>
             </main>
         </>

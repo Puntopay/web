@@ -169,7 +169,9 @@ const FormularioInscripcion = () => {
                     { ( formik.touched.dane_city_id && formik.errors.dane_city_id ) && <p className="form-error">{ formik.errors.dane_city_id }</p> }
                 </div>
             ) }
-            
+            <div className="puntopay-item-container">
+                <input type="checkbox"/> Acepto la politica de tratamiento de datos
+            </div>
             <div className="puntopay-item-container">
                 <button 
                     type="submit"

@@ -54,11 +54,6 @@ const Header = () => {
                         </div>
                         <ul className={ `menu ${ styles.menu } ${ mostrarOcultarMenu && styles.mostrar  }` }>
                             <li>
-                                <Link href="/puntopay">
-                                    <a onClick={ () => setMostrarOcultarMenu( false ) }>Nosotros</a>
-                                </Link>
-                            </li>
-                            <li>
                                 <Link href="/tienda-virtual">
                                     <a onClick={ () => setMostrarOcultarMenu( false ) }>Tienda Virtual</a>
                                 </Link>
@@ -83,15 +78,15 @@ const Header = () => {
                                     <a><Whatsapp /><span>Asesor de ventas</span></a>
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/puntopay">
+                                    <a onClick={ () => setMostrarOcultarMenu( false ) }>Registrarse</a>
+                                </Link>
+                            </li>
                         </ul>
                     </MediaQuery>
                     <MediaQuery minDeviceWidth={ 768 }>
                         <ul className={ `menu ${ styles.menu }` }>
-                            <li>
-                                <Link href="/puntopay">
-                                    <a>Nosotros</a>
-                                </Link>
-                            </li>
                             <li>
                                 <Link href="#">
                                     <a onClick={ () => mostrarOcultar() }>Medios de pago</a>
@@ -128,6 +123,11 @@ const Header = () => {
                             <li className={ styles.menu_icon }>
                                 <Link href="#">
                                     <a><Whatsapp /><span>Asesor de ventas</span></a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/puntopay">
+                                    <a onClick={ () => setMostrarOcultarMenu( false ) }>Registrarse</a>
                                 </Link>
                             </li>
                         </ul>
