@@ -1,13 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MediaQuery from 'react-responsive'
 
-import Dominio from '../public/images/dominio.svg'
-import Envios from '../public/images/envios.svg'
-import Personalizacion from '../public/images/personalizable.svg'
-import Productos from '../public/images/productos.svg'
+import DatafonoSlider from '../components/DatafonoSlider'
+
 import CheckList from '../public/images/checklist.svg'
-import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
+import Compra from '../public/images/compra.svg'
+import Celular from '../public/images/celular.svg'
+import Transaccion from '../public/images/transaccion.svg'
+import Limite from '../public/images/limite.svg'
 
 import styles from '../styles/paginas/Datafono.module.scss'
 
@@ -22,19 +24,30 @@ const Datafono = () => {
             <main>
                 <div className="full-size banner_home">
                     <div className="banner_image_container">
-                        <Image 
-                            src="/images/tienda-virtual-banner-home.png"
-                            alt="Puntopay, solucion de medios para pagos digitales"
-                            layout="fill"
-                            objectFit="cover"
-                            quality={ 100 }
-                        />
+                        <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+                            <Image 
+                                src="/images/banner-datafono.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
+                        <MediaQuery minDeviceWidth={ 769 } >
+                            <Image 
+                                src="/images/datafono-banner.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
                     </div>
                     <div className="banner_text_container">
                         <div className="banner_text_wrap">
                         <h2>Sin contratos, sin costos sorpresa. Aquí solo pagas por transacción. <br/><span className="font-color-magenta">¡Ni un peso más!</span></h2>
-                        <Link href="#">
-                            <a className="btn btn-amarillo">Quiero mi datáfono</a>
+                        <Link href="https://tiendapuntored.viveshops.co/">
+                            <a className="btn btn-amarillo" target="_blank">Quiero mi datáfono</a>
                         </Link>
                         <Link href="#">
                             <a className="btn btn-verde">¿Cómo activo mi datáfono?</a>
@@ -44,21 +57,21 @@ const Datafono = () => {
                 </div>
                 <div className={ `panel ${ styles.tarjetas_container }` }>
                     <h2 className="ancho-60 text-center center">Recibe pagos con tarjetas débito y crédito para transacciones sin contacto.</h2>
-                    <div className="ancho-50 center grid-container has-2-cols">
+                    <div className={`ancho-50 center grid-container has-2-cols ${ styles.tarjetas_item_container }`}>
                         <div className={ `grid-column ${ styles.tarjetas_item }` }>
-                            <Dominio />
+                            <Compra />
                             <p>Cómpralo a través de la app o en la web por $89.000.</p>
                         </div>
                         <div className={ `grid-column ${ styles.tarjetas_item }` }>
-                            <Envios />
+                            <Transaccion />
                             <p>Solo pagas por transacción.</p>
                         </div>
                         <div className={ `grid-column ${ styles.tarjetas_item }` }>
-                            <Personalizacion />
+                            <Celular />
                             <p>Se conecta a tu celular a través de la app datáfono Puntopay.</p>
                         </div>
                         <div className={ `grid-column ${ styles.tarjetas_item }` }>
-                            <Productos />
+                            <Limite />
                             <p>Acepta transacciones de $1.000 hasta $2.000.000.</p>
                         </div>
                     </div>
@@ -66,7 +79,7 @@ const Datafono = () => {
                 <div className={`panel ${ styles.beneficios_container}`}>
                     <div className={ `site-inner-wrap column-container has-2-cols` }>
                         <div className={ `column ${ styles.pasarela_pagos_ilustracion }` }>
-                            <PasarelaPagos />
+                            <DatafonoSlider />
                         </div>
                         <div className={ `column ${ styles.beneficios_texto }` }>
                             <h2 className="font-color-magenta">Conoce nuestros beneficios.</h2>
@@ -82,8 +95,8 @@ const Datafono = () => {
                             <div className="check-list">
                                 <p className={ `check-list-title ${ styles.beneficios_item }` }><CheckList/> <strong>Incluye material publicitario.</strong></p>
                             </div>
-                            <Link href="#">
-                                <a className={`btn btn-amarillo ${ styles.btn }`}>Comprálo ahora</a>
+                            <Link href="https://tiendapuntored.viveshops.co/">
+                                <a className={`btn btn-amarillo ${ styles.btn }`} target="_blank">Quiero mi datáfono</a>
                             </Link>
                         </div>
                     </div>
@@ -123,13 +136,24 @@ const Datafono = () => {
                 <div className={`panel ${ styles.info_tecnica_container }`}>
                     <div className={ `site-inner-wrap column-container` }>
                         <div className={ `ancho-40 ${ styles.infotech_image }` }>
-                            <Image 
-                                src="/images/datafono-01.png"
-                                alt="Paga con Visa, Mastercard o PSE"
-                                layout="fixed"
-                                height={ 600 }
-                                width={ 450 }
-                            />
+                            <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+                                <Image 
+                                    src="/images/datafono-01-mobil.png"
+                                    alt="Paga con Visa, Mastercard o PSE"
+                                    layout="fixed"
+                                    height={ 373 }
+                                    width={ 280 }
+                                />
+                            </MediaQuery>
+                            <MediaQuery minDeviceWidth={ 769 } >
+                                <Image 
+                                    src="/images/datafono-01.png"
+                                    alt="Paga con Visa, Mastercard o PSE"
+                                    layout="fixed"
+                                    height={ 600 }
+                                    width={ 450 }
+                                />
+                            </MediaQuery>
                         </div>
                         <div className={ `ancho-60 ${ styles.infotech_text }` }>
                             <h3 className="font-color-magenta">Información técnica</h3>

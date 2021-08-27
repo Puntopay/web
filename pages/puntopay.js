@@ -14,7 +14,7 @@ const Puntopay = () => {
                 <title>¿Qué es Puntopay?</title>
                 <meta name="description" content="Puntopay es la solución de medios de pago digitales." />
             </Head>
-            <main className="">
+            <main className={ styles.puntopay_main_body }>
                 <div className="site-inner-wrap panel column-container has-2-cols">
                     <div className="column">
                         <h2 className="font-color-magenta">¿Qué es Puntopay?</h2>

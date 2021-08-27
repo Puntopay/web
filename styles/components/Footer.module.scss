@@ -1,3 +1,5 @@
+@use '../basics/colores' as *;
+
 .footer{
     padding: 2rem 0;
 
@@ -17,9 +19,11 @@
     }
 
     .redes_sociales{
+        display: flex;
+        flex-flow: row nowrap;
         list-style: none;
         margin: 0;
-        padding: 1rem 0;
+        padding: 2rem 0;
         
         li{
             a{
@@ -30,11 +34,21 @@
                 height: 32px;
                 justify-content: center;
                 margin: auto;
+                transition: all .3s ease-in-out;
                 width: 32px;
 
                 svg{
                     height: 50%;
                     fill: #FFF;
+                }
+
+                &:hover{
+                    border-color: $color-5 !important;
+                    transform: scale(105%, 105%);
+        
+                    svg{
+                        fill: $color-5 !important;
+                    }
                 }
             }
         }
@@ -44,15 +58,29 @@
     display: flex;
     flex-flow: row nowrap;
     column-gap: 2rem;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        flex-flow: row wrap;
+    }
 }
 .footer_column{
     width: 20%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
-.footer_logo{
-        
+.footer_logo{       
     svg{
         fill: #FFF;
         width: 150px;
+    }
+}
+.footer_menu{
+    a{
+        &:hover{
+            text-decoration: underline;
+        }
     }
 }
 .blog_link{

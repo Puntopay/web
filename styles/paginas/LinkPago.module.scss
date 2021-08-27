@@ -27,6 +27,12 @@
             }
         }
     }
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        div:first-of-type{
+            margin: auto;
+        }
+    }
 }
 
 .link_image_container{

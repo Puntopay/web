@@ -7,33 +7,67 @@
 }
 .ancho-50{
     width: 50%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
 .ancho-60{
     width: 60%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
 .ancho-70{
     width: 70%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
 .ancho-80{
     width: 80%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
 
 //********************************************** Altos
 
 .full-size{
     height: 100vh;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        height: auto;
+    }
 }
 
 //********************************************** Banner
 
 .banner_home{
     position: relative;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
 }
 .banner_image_container{
     height: 100%;
     position: absolute;
     right: 0;
     width: 65%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        grid-row: 2 / 3;
+        height: 369px;
+        margin-top: -20%;
+        position: relative;
+        width: 100%;
+    }
 }
 .banner_text_container{
     height: 100vh;
@@ -42,6 +76,14 @@
     width: 80%;
     right: 0;
     position: absolute;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        grid-row: 1 / 2;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+        width: 100%;
+    }
 }
 .banner_text_wrap{
     display: flex;
@@ -50,9 +92,22 @@
     justify-content: center;
     width: 35%;
 
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        align-items: center;
+        justify-content: flex-end;
+        overflow: hidden;
+        padding: 0 2rem;
+        width: 100%;
+    }
+
     h2, h3{
         font-size: 2.8rem;
         line-height: 140%;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            font-size: 1.6rem;
+            text-align: center;
+        }
     }
 }
 .banner_visa_pse{
@@ -81,7 +136,13 @@
     font-size: 1rem;
     margin: 1rem 0;
     padding: .8rem 2rem;
+    transition: all .3s ease-in-out;
     width: fit-content;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        border-radius: 8px;
+        font-size: .8rem;
+    }
 
     &-amarillo{
         background-color: $color-4;
@@ -92,6 +153,13 @@
     &-verde{
         background-color: $color-1;
         color: #FFF;
+    }
+
+    &:hover{
+        background-color: $color-5;
+        box-shadow: 8px 8px 0 rgba(0,0,0,.3);
+        color: #FFF;
+        transform: translate(-4px, -4px) scale(101%, 101%);
     }
 }
 .btn-form{
@@ -120,6 +188,12 @@
     display: flex;
     flex-flow: row nowrap;
     column-gap: 2rem;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        column-gap: 1rem;
+        row-gap: 1rem;
+        flex-flow: row wrap;
+    }
 }
 
 .has-2-cols{
@@ -129,6 +203,15 @@
     .grid-column{
         width: calc(50% - 1rem);
     }
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        .column{
+            width: 100%;
+        }
+        .grid-column{
+            width: 100%;
+        }
+    }
 }
 .has-3-cols{
     .column{
@@ -136,6 +219,15 @@
     }
     .grid-column{
         width: calc(33.3333% - 1rem);
+    }
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        .column{
+            width: 100%;
+        }
+        .grid-column{
+            width: 100%;
+        }
     }
 }
 .has-4-cols{
@@ -145,10 +237,25 @@
     .grid-column{
         width: calc(25% - 1rem);
     }
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        .column{
+            width: 100%;
+        }
+        .grid-column{
+            width: 100%;
+        }
+    }
 }
 .has-5-cols{
     .column{
         width: 20%;
+    }
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        .column{
+            width: 100%;
+        }
     }
 }
 
@@ -156,6 +263,10 @@
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        gap: 1rem;
+    }
 }
 
 //********************************************** Listas
@@ -243,7 +354,7 @@
     font-size: 1.8rem;
 }
 
-//********************************************** Bloques
+//********************************************** Acordeon
 
 .acordeon{
     list-style: none;
@@ -261,8 +372,10 @@
         justify-content: space-between;
         cursor: pointer;
         padding: 10px;
+        padding-right: 42px;
         border: 1px solid #fff;
         border-bottom: none;
+        position: relative;
         transition: all .6s ease-in-out;
 
         &::after{
@@ -274,6 +387,8 @@
             display: flex;
             height: 32px;
             justify-content: center;
+            position: absolute;
+            right: 0;
             width: 32px;
         }
 
@@ -289,6 +404,14 @@
 
     .acordeon-content{
         padding: 1rem;
+
+        ul{
+            padding: 1rem 40px;
+
+            li{
+                border: none
+            }
+        }
     }
 
     input[type="checkbox"]{
@@ -315,6 +438,9 @@
         border-bottom: 1px solid #fff;
     }
 }
+
+//********************************************** Bloques
+
 .menu{
     list-style: none;
     margin: 0;
@@ -323,10 +449,24 @@
 
 .panel{
     padding: 6rem 0;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        padding: 3rem 0;
+    }
 }
 .site-inner-wrap{
     margin: 0 auto;
     width: 80%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        padding: 0 1rem;
+        width: 100%;
+    }
+}
+.mobile-top-padding{
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        padding-top: 6rem;
+    }
 }
 
 //********************************************** Formularios

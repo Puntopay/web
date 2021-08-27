@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MediaQuery from 'react-responsive'
 import TextLoop from "react-text-loop";
 
 import Dominio from '../public/images/dominio.svg'
@@ -26,13 +27,25 @@ const TiendaVirtual = () => {
             <main>
                 <div className="full-size banner_home">
                     <div className="banner_image_container">
-                        <Image 
-                            src="/images/tienda-virtual-banner-home.png"
-                            alt="Puntopay, solucion de medios para pagos digitales"
-                            layout="fill"
-                            objectFit="cover"
-                            quality={ 100 }
-                        />
+                        <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+                            <Image 
+                                src="/images/banner-tienda-virtual.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
+                        <MediaQuery minDeviceWidth={ 769 } >
+                            <Image 
+                                src="/images/tienda-virtual-banner-home.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
+                        
                     </div>
                     <div className="banner_text_container">
                         <div className="banner_text_wrap">
@@ -41,9 +54,12 @@ const TiendaVirtual = () => {
                             interval={ 6000 }
                             springConfig={{ stiffness: 180, damping: 8 }}
                             >
-                            <span>&nbsp;Casa</span>
-                            <span>&nbsp;Oficina</span>
-                            <span>&nbsp;Carro</span>
+                                <span>&nbsp;droguería</span>
+                                <span>&nbsp;veterinaria</span>
+                                <span>&nbsp;licorería</span>
+                                <span>&nbsp;supermercado</span>
+                                <span>&nbsp;ferretería</span>
+                                <span>&nbsp;papelería</span>
                             </TextLoop>
                         </h2>
                         <div className="banner_visa_pse">
@@ -55,7 +71,7 @@ const TiendaVirtual = () => {
                                 width={ 242 }
                             />
                         </div>
-                        <Link href="#">
+                        <Link href="#tienda-virtual-form">
                             <a className="btn btn-amarillo">Quiero mi tienda virtual</a>
                         </Link>
                         </div>
@@ -63,7 +79,7 @@ const TiendaVirtual = () => {
                 </div>
                 <div className={ `panel ${ styles.caracteristicas }` }>
                     <h2>Te entregamos tu tienda virtual lista para empezar a vender con</h2>
-                    <div className={ `site-inner-wrap column-container has-5-cols` }>
+                    <div className={ `site-inner-wrap column-container has-5-cols ${ styles.carac_item_container }` }>
                         <div className={ `column ${ styles.carac_item } ${ styles.carac_dominio }` }>
                             <Dominio />
                             <p>Dominio y hosting gratuito</p>
@@ -161,9 +177,9 @@ const TiendaVirtual = () => {
                             <p className={ styles.costo }>$300 + 3% + IVA</p>
                         </div>
                     </div>
-                    <p className="small-font text-center">*A partir del septimo mes, pagas $35.000 mensuales o realizas 8 ventas mensuales con pasarela y no pagas nada.</p>
+                    <p className={`small-font text-center ${ styles.small_fonts }`}>*A partir del septimo mes, pagas $35.000 mensuales o realizas 8 ventas mensuales con pasarela y no pagas nada.</p>
                 </div>
-                <div className="panel">
+                <div id="tienda-virtual-form" className="panel">
                     <h2 className="font-color-magenta text-center">Regístrate para activar tu tienda</h2>
                 </div>
             </main>

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MediaQuery from 'react-responsive'
 import TextLoop from "react-text-loop";
 
 import styles from '../styles/paginas/Inicio.module.scss'
@@ -22,13 +23,24 @@ const Home = () => {
       <main>
         <div className="full-size banner_home">
           <div className="banner_image_container">
-            <Image 
-              src="/images/puntopay-medios-de-pago-banner-home.png"
-              alt="Puntopay, solucion de medios para pagos digitales"
-              layout="fill"
-              objectFit="cover"
-              quality={ 100 }
-            />
+            <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+              <Image 
+                src="/images/banner-inicio-mobil.png"
+                alt="Puntopay, solucion de medios para pagos digitales"
+                layout="fill"
+                objectFit="cover"
+                quality={ 100 }
+              />
+            </MediaQuery>
+            <MediaQuery minDeviceWidth={ 769 } >  
+              <Image 
+                src="/images/puntopay-medios-de-pago-banner-home.png"
+                alt="Puntopay, solucion de medios para pagos digitales"
+                layout="fill"
+                objectFit="cover"
+                quality={ 100 }
+              />
+            </MediaQuery>
           </div>
           <div className="banner_text_container">
             <div className="banner_text_wrap">
@@ -48,11 +60,11 @@ const Home = () => {
                   <span>consultorios médicos</span>
                 </TextLoop>
               </h2>
-              <Link href="#">
-                <a className="btn btn-amarillo">Descargar puntopay</a>
+              <Link href="https://linktr.ee/puntopay">
+                <a className="btn btn-amarillo" target="_blank">Descargar puntopay</a>
               </Link>
-              <Link href="#">
-                <a className="btn btn-verde">¿Necesitas ayuda?</a>
+              <Link href="https://www.youtube.com/channel/UC8TGu45eJS01z_h0ZACO3fQ/videos">
+                <a className="btn btn-verde" target="_blank">¿Necesitas ayuda?</a>
               </Link>
             </div>
           </div>
@@ -60,27 +72,43 @@ const Home = () => {
         <div className={ `panel ${ styles.listado_productos }` }>
           <h2>Estoy interesado en</h2>
           <div className={ `site-inner-wrap column-container has-4-cols` }>
-            <div className={ `column ${ styles.producto }` }>
-                <Image 
+            <div className={ `column ${ styles.producto } ${ styles.producto_datafono }` }>
+              <Link href="/datafono">
+                <a><Image 
                   src="/images/datafono-mini.png"
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={112}
                   height={120}
-                />
-              <p>Recibir pagos físicos con tarjetas</p>
+                /></a>
+              </Link>
+              <Link href="/datafono">
+                <a>Recibir pagos físicos con tarjetas</a>
+              </Link>
             </div>
             <div className={ `column ${ styles.producto }` }>
-              <TiendaVirtual />
-              <p>Mi tienda virtual</p>
+              <Link href="/tienda-virtual">
+                <a><TiendaVirtual /></a>
+              </Link>
+              <Link href="/tienda-virtual">
+                <a>Mi tienda virtual</a>
+              </Link>
             </div>
             <div className={ `column ${ styles.producto }` }>
-              <Cobros />
-              <p>Cobrar desde cualquier lugar</p>
+              <Link href="/link-pago">
+                <a><Cobros /></a>
+              </Link>
+              <Link href="/link-pago">
+                <a>Cobrar desde cualquier lugar</a>
+              </Link>
             </div>
             <div className={ `column ${ styles.producto }` }>
-              <Pasarela />
-              <p>Pasarela de pagos en mi web</p>
+              <Link href="/pasarela-pago">
+                <a><Pasarela /></a>
+              </Link>
+              <Link href="/pasarela-pago">
+                <a>Pasarela de pagos en mi web</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -127,7 +155,7 @@ const Home = () => {
               <h2>¿Qué es el link de pago?</h2>
               <p>Es la forma más fácil de cobrar, para que tus clientes te paguen con tarjeta de crédito o PSE desde cualquier parte del mundo sin necesidad de tener página web o un datáfono.</p>
               <h3>En 3 simples pasos te olvidas del efectivo:</h3>
-              <ol className={ styles.link_pago_lista }>
+              <ol className="lista-ordenada">
                 <li>Descarga Puntopay</li>
                 <li>Activa tu link de pago</li>
                 <li>Compártelo por WhatsApp, redes sociales o correo electrónico*</li>
@@ -145,7 +173,7 @@ const Home = () => {
                   height={457}
                 />
               </div>
-              <Link href="#">
+              <Link href="/link-pago">
                 <a className={ `btn btn-amarillo ${ styles.btn }` }>Lo quiero</a>
               </Link>
             </div>
@@ -168,12 +196,12 @@ const Home = () => {
               <p>Si no tienes página web no importa, nosotros la creamos por ti con la pasarela de pagos Puntopay.</p>
               <div className={`column-container has-2-cols ${ styles.pasarela_btn_container }`}>
                 <div className={`column ${ styles.pasarela_btn_col }`}>
-                  <Link href="#">
+                  <Link href="/pasarela-pago">
                     <a className={`btn btn-amarillo ${ styles.btn }`}>Activar la pasarela en mi página web.</a>
                   </Link>
                 </div>
                 <div className={`column ${ styles.pasarela_btn_col }`}>
-                  <Link href="#">
+                  <Link href="/tienda-virtual">
                     <a className={`btn btn-verde ${ styles.btn }`}>Quiero una tienda virtual con pasarela.</a>
                   </Link>
                 </div>
@@ -202,7 +230,7 @@ const Home = () => {
                   <li>Solo pagas por venta realizada</li>
                   <li>Incluye material publicitario</li>
                 </ul>
-                <Link href="#">
+                <Link href="https://tiendapuntored.viveshops.co/">
                   <a className={`btn btn-amarillo ${ styles.btn }`}>Quiero mi datáfono</a>
                 </Link>
                 <Link href="#">
@@ -216,19 +244,19 @@ const Home = () => {
             <h2>¿Listo para empezar con Puntopay?</h2>
             <p>Descarga ya la app de Puntopay en</p>
             <div className={`column-container has-3-cols ${ styles.app_stores_btn_container }`}>
-              <div className="column">
-                <Link href="#">
-                  <a><GooglePlay/></a>
+              <div className={`column ${ styles.btn_store }`}>
+                <Link href="https://play.google.com/store/apps/details?id=co.puntored.puntopay&referrer=utm_source%3DFenalco_Asamblea%26utm_medium%3Dcorreo_elctronico%26utm_term%3DAsamblea%2520de%2520Afiliados%26utm_content%3DDescarga_Puntopay">
+                  <a target="_blank"><GooglePlay/></a>
                 </Link>
               </div>
-              <div className="column">
-                <Link href="#">
-                  <a><AppGallery/></a>
+              <div className={`column ${ styles.btn_store }`}>
+                <Link href="https://appgallery.huawei.com/#/app/C103225781?channelId=browser&detailType=0">
+                  <a target="_blank"><AppGallery/></a>
                 </Link>
               </div>
-              <div className="column">
-                <Link href="#">
-                  <a><AppleStore/></a>
+              <div className={`column ${ styles.btn_store }`}>
+                <Link href="https://apps.apple.com/co/app/puntopay/id1524854395">
+                  <a target="_blank"><AppleStore/></a>
                 </Link>
               </div>
             </div>

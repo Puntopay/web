@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import MediaQuery from 'react-responsive'
 
 import styles from '../styles/paginas/LinkPago.module.scss'
 
@@ -13,13 +14,24 @@ const LinkPago = () => {
             <main>
                 <div className="full-size banner_home">
                     <div className="banner_image_container">
-                        <Image 
-                            src="/images/pago-gratuito-banner.png"
-                            alt="Puntopay, link de pago gratuito"
-                            layout="fill"
-                            objectFit="cover"
-                            quality={ 100 }
-                        />
+                        <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+                            <Image 
+                                src="/images/banner-link-pago.png"
+                                alt="Puntopay, link de pago gratuito"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
+                        <MediaQuery minDeviceWidth={ 769 } >
+                            <Image 
+                                src="/images/pago-gratuito-banner.png"
+                                alt="Puntopay, link de pago gratuito"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
                     </div>
                     <div className="banner_text_container">
                         <div className="banner_text_wrap">

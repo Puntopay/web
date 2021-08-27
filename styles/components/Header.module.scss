@@ -1,9 +1,17 @@
+@use '../basics/colores' as *;
+
 .header{
     padding: 1rem 0;
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 999;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        position: fixed;
+        top:0;
+        width: 100%;
+    }
     
     .site_inner_wrap{
         align-items: center;
@@ -16,9 +24,50 @@
     height: 34px;
     width: auto;
 
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        position: relative;
+        z-index: 99999;
+    }
+
     svg{
         height: 100%;
-        fill: rgb(183, 45, 138);
+        fill: $color-5;
+    }
+}
+.header_main_nav_button{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 34px;
+    justify-content: center;
+    padding: 4px;
+    position: relative;
+    width: 64px;
+    z-index: 99999;
+
+    .line{
+        background-color: $color-5;
+        display: block;
+        height: 4px;
+        margin-bottom: 4px;
+        transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        width: 60%;
+
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+
+    &.cerrar{
+        .line_one{
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        .line_two{
+            opacity: 0;
+        }
+        .line_three{
+            transform: rotate(-45deg) translate(4px, -6px);
+        } 
     }
 }
 .header_main_nav{
@@ -33,6 +82,70 @@
             a{
                 font-size: 1rem;
                 font-weight: 700;
+                transition: all .3s ease-in-out;
+
+                &:hover{
+                    color: $color-5;
+                }
+            }
+
+            &.menu_icon{
+                a{
+                    align-items: center;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+
+                    svg{
+                        height: 20px;
+                        fill: #1FBB9B;
+                        width: auto;
+                    }
+                    span{
+                        display: block;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            flex-flow: column;
+            height: 100%;
+            left: -100%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+            z-index: 9999;
+
+            &.mostrar{
+                left: 0;
+            }
+
+            li{
+                position: relative;
+                z-index: 9;
+
+                a{
+                    display: block;
+                    font-size: 1.3rem;
+                    padding: .5rem 0;
+                    text-align: center;
+                }
+            }
+
+            &::before{
+                backdrop-filter: blur(10px);
+                background-color: rgba(255, 255, 255, 0.5);
+                content: '';
+                height: 100%;
+                position: absolute;
+                width: 100%;
+                z-index: 0;
             }
         }
     }
@@ -40,15 +153,30 @@
     .sub_menu{
         display: none;
         list-style: none;
-        left: calc(-50% - 8px);
+        left: calc(-25% - 12px);
         margin: 0;
-        padding: 0;
+        padding: 1rem 0;
         position: absolute;
         width: 300px;
 
         li{
             opacity: 0;
+            position: relative;
             text-align: center;
+            z-index: 99;
+        }
+
+        &::before{
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            content: '';
+            height: 100%;
+            opacity: .8;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0;
         }
 
         &.mostrar{

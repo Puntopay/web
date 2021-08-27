@@ -5,10 +5,24 @@
         margin-bottom: 2rem;
     }
 }
+.tarjetas_item_container{
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+}
 .tarjetas_item{
     display: flex;
     flex-flow: row nowrap;
     column-gap: 1rem;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        align-items: center;
+        flex-flow: column;
+        width: calc(50% - .5rem) !important;
+    }
 
     svg{
         display: block;
@@ -19,10 +33,24 @@
 
     p{
         flex: 1;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            text-align: center;
+        }
     }
 }
 
 .beneficios_texto{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        h2{
+            text-align: center;
+        }
+    }
+
     .beneficios_item{
         svg{
             fill: $color-5;
@@ -36,6 +64,10 @@
     .btn{
         display: block;
         margin-top: 2rem;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            margin: 2rem auto 0;
+        }
     }
 }
 .alquiler_container{
@@ -43,10 +75,20 @@
     .panel_titulo{
         margin: 1rem auto 2rem;
         width: 50%;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            padding: 0 1rem;
+            width: 100%;
+        }
     }
     .panel_desc{
         margin: 1rem auto;
         width: 50%;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            padding: 0 1rem;
+            width: 100%;
+        }
     }
 
     .alquiler_item{
@@ -62,6 +104,10 @@
         align-items: center;
         display: flex;
         justify-content: center;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            margin: auto;
+        }
     }
     .alquiler_tabla{
         border: solid 1px $color-5;

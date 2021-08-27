@@ -5,9 +5,25 @@
         margin: 3rem auto;
         max-width: 50%;
         text-align: center;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            max-width: 90%;
+        }
+    }
+}
+.carac_item_container{
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
     }
 }
 .carac_item{
+    
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: calc(50% - .5rem) !important;
+    }
+    
     svg{
         display: block;
         height: auto;
@@ -55,10 +71,23 @@
     margin: auto;
     padding: 2rem 0;
     width: 50%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        flex-flow: column;
+        padding: 0;
+        width: 70%;
+    }
 }
 .costos_item{
     border-left: solid 1px #000;
     width: 33.3333%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        border-top: solid 1px #000;
+        border-left: none;
+        padding: 1rem 0;
+        width: 100%;
+    }
 
     &:first-of-type{
         border: none;
@@ -74,4 +103,7 @@
         font-size: 1.5rem;
         text-transform: uppercase;
     }
+}
+.small_fonts{
+    padding: 0 1rem;
 }

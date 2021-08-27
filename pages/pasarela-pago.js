@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MediaQuery from 'react-responsive'
 
 import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
 
@@ -17,13 +18,24 @@ const PasarelaPago = () => {
             <main>
                 <div className="full-size banner_home">
                     <div className="banner_image_container">
-                        <Image 
-                            src="/images/pasarela-pago-banner.png"
-                            alt="Puntopay, solucion de medios para pagos digitales"
-                            layout="fill"
-                            objectFit="cover"
-                            quality={ 100 }
-                        />
+                        <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
+                            <Image 
+                                src="/images/banner-pasarela-pago.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
+                        <MediaQuery minDeviceWidth={ 769 } >
+                            <Image 
+                                src="/images/pasarela-pago-banner.png"
+                                alt="Puntopay, solucion de medios para pagos digitales"
+                                layout="fill"
+                                objectFit="cover"
+                                quality={ 100 }
+                            />
+                        </MediaQuery>
                     </div>
                     <div className="banner_text_container">
                         <div className="banner_text_wrap">
@@ -46,10 +58,10 @@ const PasarelaPago = () => {
                             <h2 className="font-color-amarillo text-center">¿Qué necesito para integrarme?</h2>
                             <p className="font-color-blanco text-center">Consulta aquí la documentación </p>
                             <div className={ styles.requisitos_botones_container }>
-                                <Link href="#">
-                                    <a className="btn btn-amarillo">Ver la documentación</a>
+                                <Link href="http://www.puntored.co/Comunicados/documentacion.pdf">
+                                    <a className="btn btn-amarillo" target="_blank">Ver la documentación</a>
                                 </Link>
-                                <Link href="#">
+                                <Link href="https://api.whatsapp.com/send?phone=+573102032681&text=Hola%2C%20quiero%2C%20hacer%2C%20una%2C%20consulta">
                                     <a className="btn btn-blanco">¿Necesitas ayuda?</a>
                                 </Link>
                             </div>

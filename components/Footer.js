@@ -20,7 +20,7 @@ const Footer = () => {
                     310 233 6354 / sac@puntopay.co</p>
                 </div>
                 <div className={ styles.footer_column }>
-                    <ul className={`menu ${ styles.menu }`}>
+                    <ul className={`menu ${ styles.menu } ${ styles.footer_menu }`}>
                         <li>
                             <Link href="#">
                                 <a>Políticas</a>
@@ -41,7 +41,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className={ styles.footer_column }>
-                    <ul className={`menu ${ styles.menu }`}>
+                    <ul className={`menu ${ styles.menu } ${ styles.footer_menu }`}>
                         <li>
                             <Link href="/tienda-virtual">
                                 <a>Tienda virtual</a>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className={ styles.footer_column }>
-                    <ul className={`menu ${ styles.menu }`}>
+                    <ul className={`menu ${ styles.menu } ${ styles.footer_menu }`}>
                         <li>
                             <Link href="#">
                                 <a>Registrarse</a>
