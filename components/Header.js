@@ -44,6 +44,9 @@ const Header = () => {
                 </figure>
                 <nav className={ styles.header_main_nav }>
                     <MediaQuery maxDeviceWidth={ 415 } orientation='portrait'>
+                        <Link href="https://api.whatsapp.com/send?phone=+573133347298&text=Hola,%20Quiero%20información">
+                            <a className={ styles.whatsapp_button }><Whatsapp /></a>
+                        </Link>
                         <div 
                             className={ `${ styles.header_main_nav_button } ${ mostrarOcultarMenu && styles.cerrar }` }
                             onClick={ () => showMenu() }
@@ -71,11 +74,6 @@ const Header = () => {
                             <li>
                                 <Link href="/datafono">
                                     <a onClick={ () => setMostrarOcultarMenu( false ) }>Datáfono</a>
-                                </Link>
-                            </li>
-                            <li className={ styles.menu_icon }>
-                                <Link href="#">
-                                    <a><Whatsapp /><span>Asesor de ventas</span></a>
                                 </Link>
                             </li>
                             <li>
@@ -121,11 +119,11 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className={ styles.menu_icon }>
-                                <Link href="#">
+                                <Link href="https://api.whatsapp.com/send?phone=+573133347298&text=Hola,%20Quiero%20información">
                                     <a><Whatsapp /><span>Asesor de ventas</span></a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className={ styles.main_nav_btn }>
                                 <Link href="/puntopay">
                                     <a onClick={ () => setMostrarOcultarMenu( false ) }>Registrarse</a>
                                 </Link>

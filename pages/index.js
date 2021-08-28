@@ -5,9 +5,6 @@ import MediaQuery from 'react-responsive'
 import TextLoop from "react-text-loop";
 
 import styles from '../styles/paginas/Inicio.module.scss'
-import Cobros from '../public/images/cobros.svg'
-import TiendaVirtual from '../public/images/tienda-virtual.svg'
-import Pasarela from '../public/images/pasarela.svg'
 import CheckList from '../public/images/checklist.svg'
 import AppGallery from '../public/images/app-gallery.svg'
 import GooglePlay from '../public/images/google-play.svg'
@@ -80,6 +77,7 @@ const Home = () => {
                   layout="intrinsic"
                   width={112}
                   height={120}
+                  quality={ 100 }
                 /></a>
               </Link>
               <Link href="/datafono">
@@ -88,7 +86,14 @@ const Home = () => {
             </div>
             <div className={ `column ${ styles.producto }` }>
               <Link href="/tienda-virtual">
-                <a><TiendaVirtual /></a>
+                <a><Image 
+                  src="/images/tienda-virtual-icon.png"
+                  alt="Link de pago puntopay"
+                  layout="intrinsic"
+                  width={148}
+                  height={120}
+                  quality={ 100 }
+                /></a>
               </Link>
               <Link href="/tienda-virtual">
                 <a>Mi tienda virtual</a>
@@ -96,7 +101,14 @@ const Home = () => {
             </div>
             <div className={ `column ${ styles.producto }` }>
               <Link href="/link-pago">
-                <a><Cobros /></a>
+                <a><Image 
+                  src="/images/cobros.png"
+                  alt="Link de pago puntopay"
+                  layout="intrinsic"
+                  width={122}
+                  height={120}
+                  quality={ 100 }
+                /></a>
               </Link>
               <Link href="/link-pago">
                 <a>Cobrar desde cualquier lugar</a>
@@ -104,7 +116,14 @@ const Home = () => {
             </div>
             <div className={ `column ${ styles.producto }` }>
               <Link href="/pasarela-pago">
-                <a><Pasarela /></a>
+                <a><Image 
+                  src="/images/pasarela.png"
+                  alt="Link de pago puntopay"
+                  layout="intrinsic"
+                  width={128}
+                  height={120}
+                  quality={ 100 }
+                /></a>
               </Link>
               <Link href="/pasarela-pago">
                 <a>Pasarela de pagos en mi web</a>

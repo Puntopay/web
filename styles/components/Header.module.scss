@@ -71,6 +71,22 @@
     }
 }
 .header_main_nav{
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .whatsapp_button{
+            display: block;
+            height: 32px;
+            margin-right: 1rem;
+            width: 32px;
+
+            svg{
+                fill: #1FBB9B;
+            }
+        }
+    }
     .menu{
         display: flex;
         flex-flow: row nowrap;
@@ -201,6 +217,21 @@
                     animation-delay: .4s;
                 }
             }
+        }
+    }
+}
+.main_nav_btn{
+    a{
+        align-items: center;
+        background: $color-1;
+        border-radius: 4px;
+        color: #FFF;
+        display: flex;
+        padding: 0 1rem;
+
+        &:hover{
+            background-color: $color-5;
+            color: #FFF !important;
         }
     }
 }

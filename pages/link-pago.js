@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import MediaQuery from 'react-responsive'
 
+import FormularioInscripcion from '../components/FormularioInscripcion'
 import styles from '../styles/paginas/LinkPago.module.scss'
 
 const LinkPago = () => {
@@ -97,6 +98,9 @@ const LinkPago = () => {
                 <div className="panel">
                     <h2 className="font-color-magenta text-center">¿Cómo activo mi cuenta Puntopay?</h2>
                     <p className="ancho-60 center text-center">Solo necesitas tu cédula de ciudadanía o cédula de extranjería, tener una línea celular de un operador en Colombia y un correo electrónico. </p>
+                    <div className="ancho-50 center pt-2">
+                        <FormularioInscripcion />
+                    </div>
                 </div>
             </main>
         </>
