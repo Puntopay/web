@@ -41,7 +41,7 @@ const Home = () => {
           </div>
           <div className="banner_text_container">
             <div className="banner_text_wrap">
-              <h2>Puntopay es la solución de medios de pago para  
+              <h2><span>Puntopay es la solución de medios de pago para &nbsp;</span>
                 <TextLoop
                   interval={ 6000 }
                   springConfig={{ stiffness: 180, damping: 8 }}

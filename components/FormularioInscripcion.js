@@ -64,7 +64,8 @@ const FormularioInscripcion = () => {
             address: '',
             neighborhood: '',
             zip_code: '',
-            dane_city_id: ''
+            dane_city_id: '',
+            tratamiento_datos: false
         },
         validationSchema: Yup.object({
             name: Yup.string().min( 3, 'El nombre es muy corto').max( 50, 'El nombre es muy largo' ).required('El nombre es obligatorio'),
@@ -73,7 +74,8 @@ const FormularioInscripcion = () => {
             identification_type_id: Yup.number().required('Debe elegir un tipo de documento'),
             identification: Yup.number().required('El número de documento es requerido'),
             mobile: Yup.number().positive().required('El número de móvil es requerido'),
-            dane_city_id: Yup.number().required('La ciudad es requerida')
+            dane_city_id: Yup.number().required('La ciudad es requerida'),
+            tratamiento_datos: Yup.boolean().oneOf( [true], 'Debe aceptar la política de tratamiento de datos' )
         }),
         onSubmit: user => {
             const formatValues = {
@@ -227,7 +229,13 @@ const FormularioInscripcion = () => {
                     </div>
                 ) }
                 <div className="puntopay-item-container">
-                    <input type="checkbox"/> Acepto la politica de tratamiento de datos
+                    <input 
+                        type="checkbox" 
+                        name="tratamiento_datos"
+                        value={ formik.values.tratamiento_datos }
+                        onChange={ formik.handleChange } 
+                    /> Acepto la politica de tratamiento de datos
+                    { ( formik.touched.tratamiento_datos && formik.errors.tratamiento_datos ) && <p className="form-error">{ formik.errors.tratamiento_datos }</p> }
                 </div>
                 <div className="puntopay-item-container">
                     <button 

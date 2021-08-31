@@ -162,6 +162,10 @@
         transform: translate(-4px, -4px) scale(101%, 101%);
     }
 }
+.btn-center{
+    display: block;
+    margin: 2rem auto 0;
+}
 .btn-form{
     background-color: $color-1;
     border: none;

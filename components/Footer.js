@@ -34,8 +34,8 @@ const Footer = () => {
                                 <a>Condiciones de uso</a>
                             </Link></li>
                         <li>
-                            <Link href="#">
-                                <a>Línea ética</a>
+                            <Link href="https://docs.google.com/forms/d/1A95dIpEkj-CzPpXnKca5OVHJtEktagKG-BOpGl-A1Rg/viewform?edit_requested=true&gxids=7628">
+                                <a target="_blank">Línea ética</a>
                             </Link>
                         </li>
                     </ul>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className={ styles.footer_column }>
                     <ul className={`menu ${ styles.menu } ${ styles.footer_menu }`}>
                         <li>
-                            <Link href="#">
+                            <Link href="/puntopay">
                                 <a>Registrarse</a>
                             </Link>
                         </li>

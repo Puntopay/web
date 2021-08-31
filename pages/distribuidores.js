@@ -105,6 +105,9 @@ const Distribuidores = () => {
                 <div className="panel">
                     <h2 className="font-color-magenta text-center">¿Cómo ser distribuidor Puntopay?</h2>
                     <p className="text-center ancho-60 center">Déjanos tus datos para iniciar tu proceso como distibuidor</p>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeWuc0ca9kdM3aHaQdpbkVPv35BSYFM3NAkIx13BBOAB83vVA/viewform">
+                        <a className="btn btn-verde btn-center" target="_blank">Postularme como distribuidor</a>
+                    </Link>
                 </div>
             </main>
         </>
