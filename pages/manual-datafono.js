@@ -102,7 +102,7 @@ const ManualDatafono = () => {
                         <h2 className={ styles.titulo_panel }><span>2</span> Conecta tu datáfono Puntopay por bluetooth a tu smartphone</h2>
                         <div className="column-container">
                             <div className={ styles.paso_dos_text }>
-                                <p>Búscalo como "MPOS" seguido del número de serie de tu datáfono de Puntopay</p>
+                                <p>Búscalo como &quot;MPOS&ldquo; seguido del número de serie de tu datáfono de Puntopay</p>
                             </div>
                             <div className={ styles.paso_dos_image }>
                                 <Image 
@@ -233,7 +233,7 @@ const ManualDatafono = () => {
                         <div className={`column-container ${ styles.paso_seis_columnas }`}>
                             <div className="column-container">
                                 <div className={ styles.paso_cinco_item }>
-                                    <p>1. Dirígete al menú principal del app datáfono Puntopay e ingresa en "Anular Transacción"</p>
+                                    <p>1. Dirígete al menú principal del app datáfono Puntopay e ingresa en &quot;Anular Transacción&ldquo;</p>
                                 </div>
                                 <div className={ styles.paso_cinco_image }>
                                     <Image 
