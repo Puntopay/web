@@ -49,7 +49,7 @@ const Datafono = () => {
                         <Link href="https://tiendapuntored.viveshops.co/">
                             <a className="btn btn-amarillo" target="_blank">Quiero mi datáfono</a>
                         </Link>
-                        <Link href="#">
+                        <Link href="/manual-datafono">
                             <a className="btn btn-verde">¿Cómo activo mi datáfono?</a>
                         </Link>
                         </div>

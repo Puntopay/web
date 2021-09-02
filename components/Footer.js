@@ -22,16 +22,16 @@ const Footer = () => {
                 <div className={ styles.footer_column }>
                     <ul className={`menu ${ styles.menu } ${ styles.footer_menu }`}>
                         <li>
-                            <Link href="#">
-                                <a>Políticas</a>
+                            <Link href="/terminos-condiciones">
+                                <a>Términos y condiciones</a>
                             </Link></li>
                         <li>
-                            <Link href="#">
-                                <a>Aviso de privacidad</a>
+                            <Link href="/tratamiento-datos">
+                                <a>Políticas de privacidad</a>
                             </Link></li>
                         <li>
-                            <Link href="#">
-                                <a>Condiciones de uso</a>
+                            <Link href="/politica-garantias">
+                                <a>Política de Garantías</a>
                             </Link></li>
                         <li>
                             <Link href="https://docs.google.com/forms/d/1A95dIpEkj-CzPpXnKca5OVHJtEktagKG-BOpGl-A1Rg/viewform?edit_requested=true&gxids=7628">

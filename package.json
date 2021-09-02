@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "formik": "^2.2.9",
+    "html-react-parser": "^1.2.8",
     "keen-slider": "^5.5.1",
     "next": "11.1.0",
     "next-react-svg": "^1.1.3",
