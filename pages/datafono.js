@@ -46,7 +46,7 @@ const Datafono = () => {
                     <div className="banner_text_container">
                         <div className="banner_text_wrap">
                         <h2>Sin contratos, sin costos sorpresa. Aquí solo pagas por transacción. <br/><span className="font-color-magenta">¡Ni un peso más!</span></h2>
-                        <Link href="https://tiendapuntored.viveshops.co/">
+                        <Link href="https://tiendapuntopay.viveshops.co/es/productos/datafono">
                             <a className="btn btn-amarillo" target="_blank">Quiero mi datáfono</a>
                         </Link>
                         <Link href="/manual-datafono">
@@ -95,7 +95,7 @@ const Datafono = () => {
                             <div className="check-list">
                                 <p className={ `check-list-title ${ styles.beneficios_item }` }><CheckList/> <strong>Incluye material publicitario.</strong></p>
                             </div>
-                            <Link href="https://tiendapuntored.viveshops.co/">
+                            <Link href="https://tiendapuntopay.viveshops.co/es/productos/datafono">
                                 <a className={`btn btn-amarillo ${ styles.btn }`} target="_blank">Quiero mi datáfono</a>
                             </Link>
                         </div>

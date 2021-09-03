@@ -1,4 +1,6 @@
 .manual_banner_text{
+    justify-content: center;
+    
     svg{
         height: auto;
         width: 165px;
@@ -88,6 +90,11 @@
     margin: 2rem auto;
     text-align: center;
     width: 70%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        font-size: 2rem;
+        width: 100%;
+    }
 }
 .paso_uno{
     padding: 4rem 0;
@@ -178,6 +185,10 @@
         font-size: 2.3rem;
         width: 70%;
 
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            width: 100%;
+        }
+
         svg{
             display: inline;
             height: 2rem;
@@ -191,12 +202,25 @@
     padding: 2rem 0;
     width: 60%;
 
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        padding: 0;
+        width: 100%;
+    }
+
     h3{
         color: #FF5100;
         font-size: 2.5rem;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            font-size: 2rem;
+        }
     }
     p{
         font-size: 2.5rem;
+
+        @media ( max-width: 415px ) and ( orientation: portrait ){
+            font-size: 1.8rem;
+        }
     }
 }
 .paso_cinco_image{
@@ -204,6 +228,10 @@
     justify-content: center;
     padding: 2rem 0;
     width: 40%;
+
+    @media ( max-width: 415px ) and ( orientation: portrait ){
+        width: 100%;
+    }
 }
 .paso_seis{
     padding: 1rem 0 3rem;

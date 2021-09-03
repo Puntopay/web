@@ -162,7 +162,7 @@ const Home = () => {
                     <p className="check-list-text">Tu cliente podrá ver el estado de su pedido en tiempo real.</p>
                   </div>
                 </div>
-                <Link href="#">
+                <Link href="/tienda-virtual">
                   <a className={`btn btn-amarillo ${ styles.btn }`}>Activar mi tienda virtual</a>
                 </Link>
             </div>
@@ -249,10 +249,10 @@ const Home = () => {
                   <li>Solo pagas por venta realizada</li>
                   <li>Incluye material publicitario</li>
                 </ul>
-                <Link href="https://tiendapuntored.viveshops.co/">
+                <Link href="https://tiendapuntopay.viveshops.co/es/productos/datafono">
                   <a className={`btn btn-amarillo ${ styles.btn }`}>Quiero mi datáfono</a>
                 </Link>
-                <Link href="#">
+                <Link href="/manual-datafono">
                   <a className={`btn btn-blanco ${ styles.btn }`}>¿Cómo activo mi datáfono?</a>
                 </Link>
             </div>
