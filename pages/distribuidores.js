@@ -2,10 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import CheckList from '../public/images/checklist.svg'
-import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
-
 import styles from '../styles/paginas/Distribuidores.module.scss'
+
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
 
 const Distribuidores = () => {
 
@@ -19,7 +20,8 @@ const Distribuidores = () => {
                 <div className="full-size banner_home">
                     <div className="banner_image_container">
                         <Image 
-                            src="/images/distribuidores-banner.png"
+                            loader={ Carga }
+                            src='distribuidores-banner.png'
                             alt="Puntopay, distribuidores autorizados"
                             layout="fill"
                             objectFit="cover"

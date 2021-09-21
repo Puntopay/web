@@ -10,6 +10,10 @@ import AppGallery from '../public/images/app-gallery.svg'
 import GooglePlay from '../public/images/google-play.svg'
 import AppleStore from '../public/images/app-store.svg'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+  return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const Home = () => {
   
   return (
@@ -22,7 +26,8 @@ const Home = () => {
           <div className="banner_image_container">
             <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
               <Image 
-                src="/images/banner-inicio-mobil.png"
+                loader={ Carga }
+                src='banner-inicio-mobil.png'
                 alt="Puntopay, solucion de medios para pagos digitales"
                 layout="fill"
                 objectFit="cover"
@@ -31,7 +36,8 @@ const Home = () => {
             </MediaQuery>
             <MediaQuery minDeviceWidth={ 769 } >  
               <Image 
-                src="/images/puntopay-medios-de-pago-banner-home.png"
+                loader={ Carga }
+                src='puntopay-medios-de-pago-banner-home.png'
                 alt="Puntopay, solucion de medios para pagos digitales"
                 layout="fill"
                 objectFit="cover"
@@ -72,7 +78,8 @@ const Home = () => {
             <div className={ `column ${ styles.producto } ${ styles.producto_datafono }` }>
               <Link href="/datafono">
                 <a><Image 
-                  src="/images/datafono-mini.png"
+                  loader={ Carga }
+                  src='datafono-mini.png'
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={112}
@@ -87,7 +94,8 @@ const Home = () => {
             <div className={ `column ${ styles.producto }` }>
               <Link href="/tienda-virtual">
                 <a><Image 
-                  src="/images/tienda-virtual-icon.png"
+                  loader={ Carga }
+                  src='tienda-virtual-icon.png'
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={148}
@@ -102,7 +110,8 @@ const Home = () => {
             <div className={ `column ${ styles.producto }` }>
               <Link href="/link-pago">
                 <a><Image 
-                  src="/images/cobros.png"
+                  loader={ Carga }
+                  src='cobros.png'
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={122}
@@ -117,7 +126,8 @@ const Home = () => {
             <div className={ `column ${ styles.producto }` }>
               <Link href="/pasarela-pago">
                 <a><Image 
-                  src="/images/pasarela.png"
+                  loader={ Carga }
+                  src='pasarela.png'
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={128}
@@ -135,7 +145,8 @@ const Home = () => {
           <div className={ `site-inner-wrap column-container has-2-cols` }>
             <div className={ `column ${ styles.tienda_ilustracion }` }>
                 <Image 
-                  src='/images/tienda-virtual.png'
+                  loader={ Carga }
+                  src='tienda-virtual.png'
                   alt="Tienda virtual lista"
                   layout="intrinsic"
                   width={574}
@@ -185,7 +196,8 @@ const Home = () => {
             <div className={`column ${ styles.link_de_pago_image }`}>
               <div className="lista-ordenada">
                 <Image 
-                  src="/images/link-pago.png"
+                  loader={ Carga }
+                  src='link-pago.png'
                   alt="Link de pago puntopay"
                   layout="intrinsic"
                   width={469}
@@ -202,7 +214,8 @@ const Home = () => {
           <div className="site-inner-wrap column-container has-2-cols">
             <div className={`column ${ styles.pasarela_de_pago_image }`}>
               <Image 
-                src="/images/pasarela-pago.png"
+                loader={ Carga }
+                src='pasarela-pago.png'
                 alt="Link de pago puntopay"
                 layout="intrinsic"
                 width={469}
@@ -232,7 +245,8 @@ const Home = () => {
           <div className={ `site-inner-wrap column-container has-2-cols` }>
             <div className={ `column ${ styles.datafono_ilustracion }` }>
               <Image 
-                  src="/images/datafono-01.png"
+                  loader={ Carga }
+                  src='datafono-01.png'
                   alt="Paga con Visa, Mastercard o PSE"
                   layout="fixed"
                   height={ 600 }

@@ -6,6 +6,10 @@ import FormularioInscripcion from '../components/FormularioInscripcion'
 import styles from '../styles/paginas/Puntopay.module.scss'
 import Davivienda from '../public/images/davivienda.svg'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const Puntopay = () => {
     
     return(
@@ -26,7 +30,8 @@ const Puntopay = () => {
                             </div>
                             <div className={`column ${ styles.sfc_container }`}>
                                 <Image 
-                                    src="/images/sfc.png"
+                                    loader={ Carga }
+                                    src='sfc.png'
                                     alt="Superintendencia Financiera de Colombia"
                                     height={ 58 }
                                     width={ 178 }

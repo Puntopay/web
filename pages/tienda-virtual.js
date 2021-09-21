@@ -14,14 +14,16 @@ import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
 import MonitorearEnvios from '../public/images/monitorea-envios.svg'
 import Promociones from '../public/images/ofertas-promociones-tv.svg'
 
-import FormTienda from '../components/TiendaVirtualForm';
+import FormTienda from '../components/TiendaVirtualForm'
 
 import styles from '../styles/paginas/TiendaVirtual.module.scss'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const TiendaVirtual = () => {
 
-    
-    
     return(
         <>
             <Head>
@@ -33,7 +35,8 @@ const TiendaVirtual = () => {
                     <div className="banner_image_container">
                         <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                             <Image 
-                                src="/images/banner-tienda-virtual.png"
+                                loader={ Carga }
+                                src='banner-tienda-virtual.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -42,7 +45,8 @@ const TiendaVirtual = () => {
                         </MediaQuery>
                         <MediaQuery minDeviceWidth={ 769 } >
                             <Image 
-                                src="/images/tienda-virtual-banner-home.png"
+                                loader={ Carga }
+                                src='tienda-virtual-banner-home.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -68,7 +72,8 @@ const TiendaVirtual = () => {
                         </h2>
                         <div className="banner_visa_pse">
                             <Image 
-                                src="/images/visa-mastercard-pse.png"
+                                loader={ Carga }
+                                src='visa-mastercard-pse.png'
                                 alt="Paga con Visa, Mastercard o PSE"
                                 layout="fixed"
                                 height={ 59 }

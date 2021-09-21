@@ -3,6 +3,10 @@ import Image from 'next/image'
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const DatafonoSlider = () => {
     
     const timer = useRef()
@@ -30,7 +34,8 @@ const DatafonoSlider = () => {
         <div ref={ sliderRef } className="keen-slider">
             <div className="keen-slider__slide number-slide1">
                 <Image 
-                    src="/images/carrusel-01.png"
+                    loader={ Carga }
+                    src='carrusel-01.png'
                     alt="Datafono punto pay"
                     height={ 485 }
                     width={ 485 }
@@ -39,7 +44,8 @@ const DatafonoSlider = () => {
             </div>
             <div className="keen-slider__slide number-slide2">
                 <Image 
-                    src="/images/carrusel-02.png"
+                    loader={ Carga }
+                    src='carrusel-02.png'
                     alt="Datafono punto pay"
                     height={ 485 }
                     width={ 485 }
@@ -48,7 +54,8 @@ const DatafonoSlider = () => {
             </div>
             <div className="keen-slider__slide number-slide3">
                 <Image 
-                    src="/images/carrusel-03.png"
+                    loader={ Carga }
+                    src='carrusel-03.png'
                     alt="Datafono punto pay"
                     height={ 485 }
                     width={ 485 }
@@ -57,7 +64,8 @@ const DatafonoSlider = () => {
             </div>
             <div className="keen-slider__slide number-slide4">
                 <Image 
-                    src="/images/carrusel-04.png"
+                    loader={ Carga }
+                    src='carrusel-04.png'
                     alt="Datafono punto pay"
                     height={ 485 }
                     width={ 485 }
@@ -66,7 +74,8 @@ const DatafonoSlider = () => {
             </div>
             <div className="keen-slider__slide number-slide5">
                 <Image 
-                    src="/images/carrusel-05.png"
+                    loader={ Carga }
+                    src='carrusel-05.png'
                     alt="Datafono punto pay"
                     height={ 485 }
                     width={ 485 }

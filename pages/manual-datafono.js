@@ -13,6 +13,10 @@ import Firma from '../public/images/firma.svg'
 
 import styles from '../styles/paginas/ManualDatafono.module.scss'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const ManualDatafono = () => {
 
     return(
@@ -26,7 +30,8 @@ const ManualDatafono = () => {
                     <div className="banner_image_container">
                         <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                             <Image 
-                                src="/images/banner-datafono.png"
+                                loader={ Carga }
+                                src='banner-datafono.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -35,7 +40,8 @@ const ManualDatafono = () => {
                         </MediaQuery>
                         <MediaQuery minDeviceWidth={ 769 } >
                             <Image 
-                                src="/images/datafono-banner.png"
+                                loader={ Carga }
+                                src='datafono-banner.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -87,7 +93,8 @@ const ManualDatafono = () => {
                             </div>
                             <div className={ styles.paso_uno_image }>
                                 <Image 
-                                    src="/images/tienda-google.png"
+                                    loader={ Carga }
+                                    src='tienda-google.png'
                                     alt="Puntopay en Google Play"
                                     layout="fixed"
                                     height={ 560 }
@@ -106,7 +113,8 @@ const ManualDatafono = () => {
                             </div>
                             <div className={ styles.paso_dos_image }>
                                 <Image 
-                                    src="/images/mpos.png"
+                                    loader={ Carga }
+                                    src='mpos.png'
                                     alt="Conecta tu datáfono Puntopay"
                                     layout="fixed"
                                     height={ 322 }
@@ -122,7 +130,8 @@ const ManualDatafono = () => {
                         <div className="column-container">
                             <div className={ styles.paso_dos_image }>
                                 <Image 
-                                    src="/images/monto-a-cobrar.png"
+                                    loader={ Carga }
+                                    src='monto-a-cobrar.png'
                                     alt="Conecta tu datáfono Puntopay"
                                     layout="fixed"
                                     height={ 499 }
@@ -141,7 +150,8 @@ const ManualDatafono = () => {
                         <div className="column-container">
                             <div className={ styles.paso_dos_image }>
                                 <Image 
-                                    src="/images/inserta-tarjeta.png"
+                                    loader={ Carga }
+                                    src='inserta-tarjeta.png'
                                     alt="Conecta tu datáfono Puntopay"
                                     layout="fixed"
                                     height={ 451 }
@@ -163,7 +173,8 @@ const ManualDatafono = () => {
                         <div className="column-container">
                             <div className={ styles.paso_dos_image }>
                                 <Image 
-                                    src="/images/contactless.png"
+                                    loader={ Carga }
+                                    src='contactless.png'
                                     alt="Puntopay contacless"
                                     layout="fixed"
                                     height={ 348 }
@@ -183,7 +194,8 @@ const ManualDatafono = () => {
                         <div className="column-container">
                             <div className={ styles.paso_dos_image }>
                                 <Image 
-                                    src="/images/inserta-tarjeta.png"
+                                    loader={ Carga }
+                                    src='inserta-tarjeta.png'
                                     alt="Conecta tu datáfono Puntopay"
                                     layout="fixed"
                                     height={ 451 }
@@ -214,7 +226,8 @@ const ManualDatafono = () => {
                             </div>
                             <div className={ styles.paso_cinco_image }>
                                 <Image 
-                                    src="/images/comprobante.png"
+                                    loader={ Carga }
+                                    src='comprobante.png'
                                     alt="Comprobante de pago Puntopay"
                                     layout="fixed"
                                     height={ 385 }
@@ -237,7 +250,8 @@ const ManualDatafono = () => {
                                 </div>
                                 <div className={ styles.paso_cinco_image }>
                                     <Image 
-                                        src="/images/transaccion-1.png"
+                                        loader={ Carga }
+                                        src='transaccion-1.png'
                                         alt="Comprobante de pago Puntopay"
                                         layout="fixed"
                                         height={ 394 }
@@ -251,7 +265,8 @@ const ManualDatafono = () => {
                                 </div>
                                 <div className={ styles.paso_cinco_image }>
                                     <Image 
-                                        src="/images/transaccion-2.png"
+                                        loader={ Carga }
+                                        src='transaccion-2.png'
                                         alt="Comprobante de pago Puntopay"
                                         layout="fixed"
                                         height={ 394 }
@@ -270,7 +285,8 @@ const ManualDatafono = () => {
                             </div>
                             <div className={ styles.paso_cinco_image }>
                                 <Image 
-                                    src="/images/transaccion-3.png"
+                                    loader={ Carga }
+                                    src='transaccion-3.png'
                                     alt="Comprobante de pago Puntopay"
                                     layout="fixed"
                                     height={ 563 }

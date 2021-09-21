@@ -8,6 +8,10 @@ import PasarelaPagos from '../public/images/pasarela-pagos-tienda-virtual.svg'
 import FormularioInscripcion from '../components/FormularioInscripcion'
 import styles from '../styles/paginas/PasarelaPago.module.scss'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const PasarelaPago = () => {
 
     return(
@@ -21,7 +25,8 @@ const PasarelaPago = () => {
                     <div className="banner_image_container">
                         <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                             <Image 
-                                src="/images/banner-pasarela-pago.png"
+                                loader={ Carga }
+                                src='banner-pasarela-pago.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -30,7 +35,8 @@ const PasarelaPago = () => {
                         </MediaQuery>
                         <MediaQuery minDeviceWidth={ 769 } >
                             <Image 
-                                src="/images/pasarela-pago-banner.png"
+                                loader={ Carga }
+                                src='pasarela-pago-banner.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"

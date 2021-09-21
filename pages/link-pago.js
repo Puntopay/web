@@ -5,6 +5,10 @@ import MediaQuery from 'react-responsive'
 import FormularioInscripcion from '../components/FormularioInscripcion'
 import styles from '../styles/paginas/LinkPago.module.scss'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const LinkPago = () => {
     return(
         <>
@@ -17,7 +21,8 @@ const LinkPago = () => {
                     <div className="banner_image_container">
                         <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                             <Image 
-                                src="/images/banner-link-pago.png"
+                                loader={ Carga }
+                                src='banner-link-pago.png'
                                 alt="Puntopay, link de pago gratuito"
                                 layout="fill"
                                 objectFit="cover"
@@ -26,7 +31,8 @@ const LinkPago = () => {
                         </MediaQuery>
                         <MediaQuery minDeviceWidth={ 769 } >
                             <Image 
-                                src="/images/pago-gratuito-banner.png"
+                                loader={ Carga }
+                                src='pago-gratuito-banner.png'
                                 alt="Puntopay, link de pago gratuito"
                                 layout="fill"
                                 objectFit="cover"
@@ -45,7 +51,8 @@ const LinkPago = () => {
                     <div className="site-inner-wrap column-container has-2-cols">
                         <div className={`column ${ styles.link_image_container }`}>
                             <Image 
-                                src="/images/video01.gif"
+                                loader={ Carga }
+                                src='video01.gif'
                                 alt="Paga con Visa, Mastercard o PSE"
                                 layout="fixed"
                                 height={ 648 }
@@ -77,7 +84,8 @@ const LinkPago = () => {
                                 <li>Elegir el método de pago: PSE o tarjeta de crédito y ¡listo!.</li>
                             </ol>
                             <Image 
-                                src="/images/visa-mastercard-pse.png"
+                                loader={ Carga }
+                                src='visa-mastercard-pse.png'
                                 alt="Paga con Visa, Mastercard o PSE"
                                 layout="fixed"
                                 height={ 59 }
@@ -86,7 +94,8 @@ const LinkPago = () => {
                         </div>
                         <div className={`column ${ styles.link_image_container }`}>
                             <Image 
-                                src="/images/video02.gif"
+                                loader={ Carga }
+                                src='video02.gif'
                                 alt="Paga con Visa, Mastercard o PSE"
                                 layout="fixed"
                                 height={ 648 }

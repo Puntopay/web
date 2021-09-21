@@ -13,6 +13,10 @@ import Limite from '../public/images/limite.svg'
 
 import styles from '../styles/paginas/Datafono.module.scss'
 
+const Carga = ({ src, height = null, width = null, quality }) => {
+    return `../images/${ src }?${ width && `w=${ width }&` }${ height && `h=${ height }&` }q=${ quality || 75 }`
+}
+
 const Datafono = () => {
 
     return(
@@ -26,7 +30,8 @@ const Datafono = () => {
                     <div className="banner_image_container">
                         <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                             <Image 
-                                src="/images/banner-datafono.png"
+                                loader={ Carga }
+                                src='banner-datafono.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -35,7 +40,8 @@ const Datafono = () => {
                         </MediaQuery>
                         <MediaQuery minDeviceWidth={ 769 } >
                             <Image 
-                                src="/images/datafono-banner.png"
+                                loader={ Carga }
+                                src='datafono-banner.png'
                                 alt="Puntopay, solucion de medios para pagos digitales"
                                 layout="fill"
                                 objectFit="cover"
@@ -138,7 +144,8 @@ const Datafono = () => {
                         <div className={ `ancho-40 ${ styles.infotech_image }` }>
                             <MediaQuery maxDeviceWidth={ 768 } orientation='portrait'>
                                 <Image 
-                                    src="/images/datafono-01-mobil.png"
+                                    loader={ Carga }
+                                    src='datafono-01-mobil.png'
                                     alt="Paga con Visa, Mastercard o PSE"
                                     layout="fixed"
                                     height={ 373 }
@@ -147,7 +154,8 @@ const Datafono = () => {
                             </MediaQuery>
                             <MediaQuery minDeviceWidth={ 769 } >
                                 <Image 
-                                    src="/images/datafono-01.png"
+                                    loader={ Carga }
+                                    src='datafono-01.png'
                                     alt="Paga con Visa, Mastercard o PSE"
                                     layout="fixed"
                                     height={ 600 }
