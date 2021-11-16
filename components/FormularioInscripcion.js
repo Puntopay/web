@@ -8,6 +8,7 @@ const FormularioInscripcion = () => {
 
     const [ ciudades, setCiudades ] = useState([])
     const [ errorDepto, setErrorDepto ] = useState( false )
+    const [ asesor, setAsesor ] = useState( false )
     const [ respuestaFormulario, setRespuestaFormulario ] = useState({
         estado: '',
         mensaje: ''
@@ -19,7 +20,7 @@ const FormularioInscripcion = () => {
             const response = await fetch( 'https://puntopay.preprodcxr.co/users', {
                 method: 'POST',
                 headers: {"Content-type": "application/json; charset=UTF-8"},
-                body: JSON.stringify(values)
+                body: JSON.stringify( values )
             } )
             console.log( response )
             if( response.status === 200 ){
@@ -34,6 +35,13 @@ const FormularioInscripcion = () => {
                     ...respuestaFormulario,
                     estado: 'Error en el registro',
                     mensaje: 'Este usuario ya se encuentra registrado'
+                })
+            }
+            else if( response.status === 400 ){
+                setRespuestaFormulario({
+                    ...respuestaFormulario,
+                    estado: 'Error en el registro',
+                    mensaje: response.data.errors[0]
                 })
             }
             else if( response.status === 500 ){
@@ -55,16 +63,17 @@ const FormularioInscripcion = () => {
             lastname: '',
             email: '',
             mobile: '',
-            country: 'Colombia',
             identification_type_id: '',
             identification: '',
             password: '',
             password_confirmation: '',
-            code: 0,
+            country: 'Colombia',
+            dane_city_id: 0,
             address: '',
             neighborhood: '',
             zip_code: '',
-            dane_city_id: '',
+            reference_id: 0,
+            referral_mobile: '',
             tratamiento_datos: false
         },
         validationSchema: Yup.object({
@@ -75,7 +84,12 @@ const FormularioInscripcion = () => {
             identification: Yup.number().required('El número de documento es requerido'),
             mobile: Yup.number().positive().required('El número de móvil es requerido'),
             dane_city_id: Yup.number().required('La ciudad es requerida'),
-            tratamiento_datos: Yup.boolean().oneOf( [true], 'Debe aceptar la política de tratamiento de datos' )
+            tratamiento_datos: Yup.boolean().oneOf( [true], 'Debe aceptar la política de tratamiento de datos' ),
+            reference_id: Yup.number().required('cuéntanos cómo nos conociste'),
+            referral_mobile: Yup.number().when( 'reference_id', {
+                is: 1,
+                then: Yup.number().required('El número del asesor es requerido')
+            } )
         }),
         onSubmit: user => {
             const formatValues = {
@@ -98,6 +112,15 @@ const FormularioInscripcion = () => {
         const keyCiudad = Object.keys( CiudadesColombia.colombia[ deptoKey ].depto )
         setCiudades( CiudadesColombia.colombia[ deptoKey ].depto[ keyCiudad ] )
 
+    }
+
+    const celAsesor = ( e ) => {
+        const valor = e.target.value
+        if( valor === "1" ){
+            setAsesor( true )
+        }else{
+            setAsesor( false )
+        }
     }
 
     const { estado, mensaje } = respuestaFormulario
@@ -228,6 +251,44 @@ const FormularioInscripcion = () => {
                         { ( formik.touched.dane_city_id && formik.errors.dane_city_id ) && <p className="form-error">{ formik.errors.dane_city_id }</p> }
                     </div>
                 ) }
+                <div className="puntopay-item-container">
+                    <select 
+                        name="reference_id"
+                        className="select"
+                        value={ formik.values.reference_id }
+                        onChange={ ( e ) => {
+                            celAsesor( e )
+                            formik.handleChange( e ) 
+                        } }
+                        onBlur={ formik.handleBlur }
+                    >
+                        <option value="">¿Cómo te enteraste de nosotros?</option>
+                        <option value="1">Asesor Comercial</option>
+                        <option value="2">Redes Sociales</option>
+                        <option value="3">Voz a voz</option>
+                        <option value="4">Alianzas</option>
+                        <option value="5">Radio</option>
+                        <option value="6">Prensa</option>
+                        <option value="7">Tv</option>
+                    </select>
+                    { ( formik.touched.reference_id && formik.errors.reference_id ) && <p className="form-error">{ formik.errors.reference_id }</p> }
+                </div>
+                {
+                    asesor &&
+                        <div className="puntopay-item-container">
+                            <input 
+                                type="number"
+                                name="referral_mobile"
+                                placeholder="Número celular del asesor comercial"
+                                id="referral_mobile"
+                                className="input"
+                                value={ formik.values.referral_mobile }
+                                onChange={ formik.handleChange } 
+                                onBlur={ formik.handleBlur } 
+                            />
+                            { ( formik.touched.referral_mobile && formik.errors.referral_mobile ) && <p className="form-error">{ formik.errors.referral_mobile }</p> }
+                        </div> 
+                }
                 <div className="puntopay-item-container">
                     <input 
                         type="checkbox" 
